@@ -1,0 +1,981 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The smoak of the Temple cleared, through the light of the Scripture· By the unworthiest of al the ministers of Christ Jo. Brayne.</title>
+            <author>Brayne, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1648</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 135 KB of XML-encoded text transcribed from 34 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77295</idno>
+            <idno type="STC">Wing B4332</idno>
+            <idno type="STC">Thomason E455_9</idno>
+            <idno type="STC">ESTC R205015</idno>
+            <idno type="EEBO-CITATION">99864461</idno>
+            <idno type="PROQUEST">99864461</idno>
+            <idno type="VID">116690</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77295)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 116690)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 72:E455[9])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The smoak of the Temple cleared, through the light of the Scripture· By the unworthiest of al the ministers of Christ Jo. Brayne.</title>
+                  <author>Brayne, John.</author>
+               </titleStmt>
+               <extent>[8], 56 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Thomas Vere, at the upper end of the Old Bayley,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCXLVIII. [1648]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "July 28".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church polity --  Early works to 1800.</term>
+               <term>Christian ethics --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:116690:1" rendition="simple:additions"/>
+            <p>THE SMOAK OF THE Temple Cleared, through the LIGHT OF THE SCRIPTURE. By the unworthieſt of al the Miniſters of Chriſt <hi>Jo. Brayne.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>JAMES 4.5.</hi>
+               </bibl> Do ye think the Scripture ſaith in vain, the Spirit that dwel<g ref="char:EOLhyphen"/>leth in us, luſteth enviouſly?</q>
+            <q>
+               <bibl>
+                  <hi>CHAP. 1.21.</hi>
+               </bibl> Wherefore lay aſide all filthineſs and ſuperfluitie of naughtineſs, and receive with meekneſs the ingraffed word, which is able to ſave your ſouls.</q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Thomas Vere,</hi> at the upper end of the <hi>Old Bayley.</hi> MDCXLVIII.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:116690:2"/>
+            <head>The Epistle Dedicatory.</head>
+            <p>
+               <seg rend="decorInit">T</seg>O the Saints of God in all the world, eſpecially the Godly Ma<g ref="char:EOLhyphen"/>giſtrates and Miniſters of this Land, and the Kingdom of Scotland: To you do I earneſt<g ref="char:EOLhyphen"/>ly deſire of God grace and Peace may be day<g ref="char:EOLhyphen"/>ly multiplyed; beſeeching each of you in your ſeverall places, to have eſpecially care of preſer<g ref="char:EOLhyphen"/>ving the peace of the people of God, knowing how eaſie a matter it is to occaſion a War, Re<g ref="char:EOLhyphen"/>ligion being made the ground thereof: How were the Heathens ſtirred up to fight for their Idol-gods; how did Papiſts fight for Popery? And its not long ſince we had a War for Epiſ<g ref="char:EOLhyphen"/>copacie; the Lord grant our War end not in a War for Presbyterie or Independencie. I have written this enſuing Tract without leaning to any partee, deſiring a friendly acceptation of al; deſiring, if poſſibly, to have here by the truth diſcovered, which is onely able to unite us in
+<pb facs="tcp:116690:3"/>Iudgement, and make us one, which War can never do, but rather bring us all to nothing; and remember Chriſt dyed to prevent the death and deſtruction of Saints, and God is ſtiled the preſerver of men, whom we ought in this to imitate: let us lay aſide all affected<g ref="char:EOLhyphen"/>neſs to any way of our own, and diligently ſearch after truth, though never ſo much con<g ref="char:EOLhyphen"/>trary to our ſelves, our way and practiſe ſub<g ref="char:EOLhyphen"/>mitting to the way of God in the Scriptures, as that onely is to be walked in, though never ſo difficult to be erected, in which onely is peace and Righteouſneſs to be found; and if there be any thing contained in the enſuing Tract, that may farther the ends propoſed in the Church of God, I ſhall greatly rejoyce, for which I ſhal earneſtly ſeek the Lord night and day, as in du<g ref="char:EOLhyphen"/>ty I am bound to do, and reſt,</p>
+            <closer>
+               <signed>A moſt unworthy ſervant, yet glad to do any ſervice in the Church for Jeſus ſake and the Goſpel. <hi>J. Brayne.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:116690:3"/>
+            <head>To the Reader.</head>
+            <p>
+               <seg rend="decorInit">B</seg>Eloved Friend, the deſire of the Saints Peace and Love to the truth, eſpecially moved me to write of that Subject that follows, which as <hi>Johns</hi> Doctrine ſeems to be new to the world, which I ſuppoſe on tryall thou wilt finde to be that truth, which was from the beginning, which though not ſo cleer at preſent, yet by this, God may be pleaſed to raiſe up ſome more learned godly and Judicious man to write more fully and cleerly, of the Comfort and conſolation of all Saints: I deſire thee not to carp at the imperfectneſs of the Cop<g ref="char:EOLhyphen"/>pie, it is very rude and indigested; having other affaires I could not attend the reading of the Copy after written, being written in much haſte, nor was there any at the preſſe able to correct the faults committed in the writing, moſt of which ſhall be in ſome kind amended in the Errata; thus deſiring thy favour, thy in<g ref="char:EOLhyphen"/>creaſe of grace, and knowledge, with thy prayer for me and the whole Church of God, I reſt,</p>
+            <closer>
+               <signed>
+                  <hi>Thy Friend and Servant in the Goſpel of Chriſt to do thee all ſervice alwayes,</hi> J. Brayne.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:116690:4"/>
+            <head>The Principall things Contained in the enſuing <hi>Treatiſe</hi> are,</head>
+            <list>
+               <item>1 THat there is a Church Miniſtry pertaining thereunto onely.</item>
+               <item>2. This Miniſtry conſiſts of Apoſtles, Pro<g ref="char:EOLhyphen"/>phets, Evangeliſts, Paſtors, and Teachers.</item>
+               <item>3. Three of theſe onely are to be a continuing ſtand<g ref="char:EOLhyphen"/>ing Miniſtry in the Church, to the end of the World.</item>
+               <item>4. There is a Miniſtry which is to be officiated out of the Church, and prepares for the Church Mini<g ref="char:EOLhyphen"/>ſtry.</item>
+               <item>5. This is proved by the practiſe of the Church of Corinth, by the Epiſtles written to Rome, Galatia, Epheſus, Coloſſe.</item>
+               <item>6. By the Church at Jeruſalem, which was the mother Church, and pattern of Churches, the reſt for the moſt part being imperfect, and, as the Apoſtle ſaith, <hi>wanting things to be put in Order.</hi>
+               </item>
+               <item>7. Of the compleat Government left by Chriſt to be exerciſed in the Church, repreſenting Monarchy, which Biſhops took up; Ariſtocracie, which Preſ<g ref="char:EOLhyphen"/>byterians took up; Democracie, which Indepen<g ref="char:EOLhyphen"/>dents took up.</item>
+               <item>8. The opening of ſeverall Scriptures, as the Parables
+<pb facs="tcp:116690:4"/>of the Tares, and of the Fiſh, uſually applyed to maintain mixt Congregations, which rightly ap<g ref="char:EOLhyphen"/>plyed make much againſt them, and that of <hi>Acts</hi> 15. uſually brought to prove and maintain the Depen<g ref="char:EOLhyphen"/>dency of Churches.</item>
+               <item>9. That there is to be a combination of teaching and Ruling Elders, but theſe to conſiſt onely of the Evangeliſt, Paſtor, and Teacher, with their other helps in Government.</item>
+               <item>10. That theſe onely are ſufficient for the whole work of the Church-Miniſtry, the edifying of the body, and the perfecting of the Saints, is proved.</item>
+               <item>11. This is illuſtrated by the Viſion of <hi>Ezechiel,</hi> con<g ref="char:EOLhyphen"/>cerning the Temple, which is not yet fulfilled, but now neer to be erected, in a ſpirituall way.</item>
+               <item>12. Something is ſpoken concerning the places of adminiſtrating the publick adminiſtrations in the diſtinct ſocieties of the Saints, as ſpoken of in the Goſpel.</item>
+            </list>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:116690:5"/>
+            <head>ERRATA.</head>
+            <p>
+               <hi>PAge</hi> 2. <hi>line</hi> 2. <hi>ſubjecting one. P.</hi> 3. <hi>l.</hi> 21. <hi>officiated. P.</hi> 5. <hi>l.</hi> 3. for <hi>theſe,</hi> r. <hi>their miniſtry. P.</hi> 6. <hi>l.</hi> 2. r. <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>l.</hi> 31. <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>P.</hi> 8. <hi>l.</hi> 18. <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>l.</hi> 22; <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>P.</hi> 9. <hi>l.</hi> 10. <hi>I ſhal leave. l.</hi> 30. <hi>immediate. P.</hi> 10. <hi>l.</hi> 6. <hi>private. P.</hi> 12. <hi>l.</hi> 1. <hi>as E<g ref="char:EOLhyphen"/>vangelist. P.</hi> 19. <hi>l.</hi> 24. <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>l.</hi> 6. <hi>the manner. P.</hi> 22. <hi>l.</hi> 14. <hi>how they ought to be diverſly. P.</hi> 23. <hi>l.</hi> 24. <hi>and in. P.</hi> 25. <hi>l.</hi> 13. <hi>the work l,</hi> 27. <hi>but pulled. l.</hi> 37. <hi>three admininiſtrations. P.</hi> 28, <hi>l,</hi> 6. <hi>baptiſm l.</hi> 14. <hi>Apoſtle, l,</hi> 29, <hi>though he. P,</hi> 32, <hi>l,</hi> 2, <hi>if he, l,</hi> 14, <hi>thy miniſtry. P,</hi> 33, <hi>l,</hi> 7, <hi>(publike) is to be left out, l,</hi> 33, <hi>are not exerciſed. P,</hi> 35, <hi>l,</hi> 8, <hi>by all means. P,</hi> 36, <hi>l,</hi> 36, <hi>priority. P,</hi> 37, <hi>l,</hi> 15, <hi>many ſcores. P,</hi> 41, <hi>l,</hi> 9, <hi>a threefold cord. P,</hi> 43, <hi>l,</hi> 35, <hi>confirm as ſome ſay P,</hi> 44, <hi>l,</hi> 8, <hi>rent, l,</hi> 37, <hi>on Chriſt as on. P,</hi> 46, <hi>l,</hi> 16, <hi>things which may be done ſucceſſively may eaſily be granted. P,</hi> 47, <hi>l,</hi> 3, <hi>(of and in) are not to be read.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="tract">
+            <pb n="1" facs="tcp:116690:5"/>
+            <head>THE Smoak of the Temple EXPEL'D By the Light of the Scriptures.</head>
+            <p>
+               <seg rend="decorInit">G</seg>OD above all bleſſings bleſſed the World in the Goſpel, to which was added the Miniſtry of it, the exerciſe whereof the chief Founder of the Gen<g ref="char:EOLhyphen"/>tile Churches hath written unto us, <hi>Eph.</hi> 3.9. ſay<g ref="char:EOLhyphen"/>ing, <hi>That to him grace was given, to make all men ſee, what is the fellowſhip of the myſtery, which hath been hid in God from the beginning of the world:</hi> In which are intimated;</p>
+            <p n="1">1. That the fellowſhip of the myſtery was a hidden thing, and not the myſtery only, which is the Salvation it ſelf, but the means of it; and the manner how the fellowſhip of this myſtery is to be injoyed by the Saints in the Church, is a great myſtery.</p>
+            <p n="2">2. That the diſcovery of this myſtery was, and is, only from, and by, the Apoſtles.</p>
+            <p n="3">3. That none can ſee, until they are made to ſee.</p>
+            <p n="4">4. That it is ſo diſcovered in the Word, when God ſhall re<g ref="char:EOLhyphen"/>veal it, it ſhall be plain for all to ſee that have eyes to ſee, or ſhall be made to ſee.</p>
+            <p n="5">5. The truth of this is clearly manifeſted in reſpect of the irre<g ref="char:EOLhyphen"/>concilablenes that at the preſent is between men of differing judg<g ref="char:EOLhyphen"/>ments, which evidence, that the light is not ſo clear nor con<g ref="char:EOLhyphen"/>vincing
+<pb n="2" facs="tcp:116690:6"/>of either party, as to prevail with the ſpirits even of ſpiri<g ref="char:EOLhyphen"/>tual men to a ſubjection to the other; which here the Apoſtle ſhews, in the light revealed by him in the Scriptures, ſhall be ſuch, that all men ſhall ſee it, yea and though they do not ſee it, they ſhal be made to ſee; ſo that there is a very commanding power, in the light to be revealed, to reveal the way of Jeſus Chriſt to the Church.</p>
+            <p>An <hi>Objection</hi> hence may be made, that it is true indeed it was hid from the world in the Ages paſt, but revealed now.</p>
+            <p>
+               <hi>Anſwer.</hi> It was indeed revealed by the Apoſtles, and practiſed by them in the then Churches; but when God hid the Church in the wilderneſs, then the fellowſhip of the myſtery came to be hid with it; for in the hiding of the one the other came to be hid, which is to continue ſo hid 1260 years.</p>
+            <p>Now, as God hid <hi>Moſes</hi> body, no man could poſſibly find it ever after: And as God himſelf is ſaid to dwel in inapproachable light, ſo the way of God, in the Church, is in the Scriptures hid as in inapproachable light which cannot be approached unto until God give a man the ſight thereof.</p>
+            <p>Firſt, it was ſaid to be hid in God before revelation; now it may be ſaid to be hid in the Word, to which we are to apply our ſelves for direction and diſcovery.</p>
+            <p>Now the chief way, as I apprehend, for the diſcovery of the fellowſhip of this myſtery by us, will be by a finding out of the cleareſt &amp; moſt apparent means of publick communion in Church-diſpenſations, which is that I ſhall, by Gods aſſiſtance, endevor to manifeſt in the enſuing tract.</p>
+            <p>The ground whereof I take from <hi>Epheſians</hi> 4.11, 12. where it is written, <hi>Christ aſcended up on high, and gave ſome, Apoſtles; ſome, Prophets; ſome, Evangelists; ſome, Paſtors, and Teachers.</hi>
+            </p>
+            <p n="1">1. This clearly ſhews, that to the right conſtituting of every true Church there ought to be ſet up theſe ſeveral Adminiſtrations therein.</p>
+            <p n="2">2. The words of the 12. verſe prove the neceſſity and end of it.</p>
+            <p n="1">1. They are <hi>for the perfecting of the Saints,</hi> without which the Saints cannot be perfected, but are left to continue in imper<g ref="char:EOLhyphen"/>fection.</p>
+            <pb n="3" facs="tcp:116690:6"/>
+            <p n="2">2. They are <hi>for the work of the Miniſtry,</hi> ſo that the Miniſtry cannot be performed by any in the Church, but by theſe.</p>
+            <p n="3">3. They only, without any other added to them, ſerve ſuffici<g ref="char:EOLhyphen"/>ently for the work which Chriſt left to be done in the Church by the Miniſtry.</p>
+            <p n="4">4. Without all theſe the work of the Miniſtry cannot be done, but will be imperfectly adminiſtred in the Church.</p>
+            <p n="5">5. The failing of theſe Adminiſtrations prove to become failings in the Church, among whom theſe Adminiſtrations ought to be exerciſed; ſo that the Church cannot be without them, no more then a ſhip without a Pilot, or a Child without a Nurſe to feed it; now that we may ſee how the Church hath been, or ought to be provided for, is to be judged hence.</p>
+            <p n="1">1. As under Epiſcopacy, it is wel known to all, there ere abun<g ref="char:EOLhyphen"/>dance of ſupernumerary Officers and Offices pertaining to Eccle<g ref="char:EOLhyphen"/>ſiaſtical affairs, whoſe names were not written in the Goſpel-Calender, which gave juſt occaſion to the adverſary to except againſt them.</p>
+            <p n="2">2. I ſuppoſe Presbytery to be as far too ſhort; the whole frame of the Miniſterial Government being ſwallowed up in one office, and officiated by one perſon: Here I deſire my Brethren, the Miniſters, that differ in judgment from me, and occaſioned the writing of this rude and indigeſted thing, to conſider of;</p>
+            <p n="1">1. Where one man may lawfully excerciſe the ſeveral Admini<g ref="char:EOLhyphen"/>ſtrations, before ſpecified, to be in the Church by an ordinary Call.</p>
+            <p n="2">2. How neceſſary it is the Church ſhould injoy her differing Adminiſtrations and Adminiſtrators, and what enemies they were who took them down in the Church.</p>
+            <p n="3">3. How unwarrantable a thing it is, to ſet up that in the Church for a Church-Miniſtry, which God hath not ſet up to rule by Au<g ref="char:EOLhyphen"/>thority, not derived from Jeſus Chriſt over the family of God.</p>
+            <p>I know many of you may ſay to me, as the Phariſees to the blind man, <hi>Wilt thou teach us?</hi> Brethren, I gladly acknowledg my unworthineſs, weakneſs, wickedneſs, and will be yet more and more vile, then man can make me, for the Goſpels ſake and Church of Chriſt, whoſe ſervant I have made my ſelf to be in the Miniſtry of the Goſpel, though every way unworthy, and thence account my
+<pb n="4" facs="tcp:116690:7"/>ſelf engaged to witneſs to the truth, and plead her cauſe, though my ſufferings abound thereby, Jeſus Chriſt witneſſing with my own conſcience, my purpoſes are not but for the diſcovery of the truth, and the knowledg of the way of Chriſt in the Churches.</p>
+            <p n="3">3. In the true Church are found all theſe and no other Admi<g ref="char:EOLhyphen"/>niſtrations then are mentioned by the Apoſtle in the Scripture be<g ref="char:EOLhyphen"/>foreſaid.</p>
+            <p>
+               <hi>Queſt.</hi> What, ſhal we have no Church nor Church-Miniſtry, until we have new Apoſtles?</p>
+            <p>
+               <hi>Anſ.</hi> New Apoſtles there are never to be.</p>
+            <p>
+               <hi>Queſt.</hi> How ſhall theſe then be in our Churches?</p>
+            <p>
+               <hi>Reſp.</hi> Theſe being ordained by Jeſus Chriſt to be in the Church, for the ends and purpoſes before propoſed, muſt be in it ſome way to do this, though not perſonally, either ordinarily or extra<g ref="char:EOLhyphen"/>ordinarily.</p>
+            <p n="2">2. That way which <hi>Moſes</hi> and the Prophets were in the Jews Church under the Law, that way are the Apoſtles and Prophets in the Goſpel Church under the Adminiſtrations thereof, <hi>Luk.</hi> 16.29. <hi>They have Moſes and the Prophets, let them hear them;</hi> ſo it is plainly proved, though the Jews had them not with them per<g ref="char:EOLhyphen"/>ſonally, yet they had them with them miniſterially.</p>
+            <p n="3">3. Hence is it ſaid, <hi>Moſes</hi> was preached in their Synagogues every Sabbath; ſo is <hi>Pauls</hi> doctrine taught by faithful Teachers, as if <hi>Paul</hi> taught it in the Church.</p>
+            <p n="4">4. Things being fully conſidered, we may conceive the Apoſtles to be more fully with us then any before, in ſome kind.</p>
+            <p n="1">1. The Epiſtles not being written to any one Church, nor all written until after <hi>Pauls</hi> time.</p>
+            <p n="2">2. After they were written, they were not ſuddenly collected for the publick uſe of the Church.</p>
+            <div type="part">
+               <head>The ſecond Church-Adminiſtration is that of Prophets.</head>
+               <p n="1">1. By Prophets, here I underſtand not thoſe that wrote before Chriſts time only, but thoſe ſince alſo, as the <hi>Revelations</hi> written by <hi>John,</hi> and <hi>Pauls</hi> Propheſies and <hi>Peters;</hi> theſe all were for the edifying of the Church, and without whom the Church could not be: Now as Chriſt ſaid to the Church, before the Goſpel-Miniſtry, concerning <hi>Moſes</hi> and the Prophets, ſo the Apoſtle
+<pb n="5" facs="tcp:116690:7"/>ſaith of Apoſtles and Prophets, <hi>Epheſians</hi> 2.20. <hi>We are,</hi> ſaith the Apoſtle, <hi>builded on the foundation of the Apoſtles and Prophets;</hi> ſo that theſe are in and to the Church as a foundation to a houſe.</p>
+               <p n="2">2. If the Apoſtles and Prophets were not in the Church, what means of Miniſtry were there left unto the Church to edifie it in the world by?</p>
+               <p n="3">3. Is there not their work in our Miniſtry working with us now ſtill as heretofore?</p>
+               <p n="4">4. Are not theſe the ground of all other publick Church-Admi<g ref="char:EOLhyphen"/>niſtrations? ſo that this being pul'd down all the reſt comes down after.</p>
+               <p>Hence I may ſay of theſe as the Spirit of God on another occa<g ref="char:EOLhyphen"/>ſion ſaid, <hi>They being dead, yet ſpeak;</hi> they are not ſilent now they are dead.</p>
+            </div>
+            <div type="part">
+               <head>The third Adminiſtration is an Evangeliſt.</head>
+               <p n="1">1. Some think this office ceaſed in thoſe that wrote the Go<g ref="char:EOLhyphen"/>ſpels; but that is clearly evinced by the Scriptures before men<g ref="char:EOLhyphen"/>tioned, <hi>Eph.</hi> 2.20. We are builded on the Apoſtles and Prophets, but not on the Evangeliſts: Now were thoſe to be builded on, would the Apoſtle not have ſet them out unto us to be ſo, or ſhould thoſe be left out in the building?</p>
+               <p n="2">2. <hi>Mark</hi> and <hi>Luke</hi> are no where called Evangeliſts in Scrip<g ref="char:EOLhyphen"/>ture, which did write the Goſpels, and thoſe which wrote them not are called Evangeliſts, as <hi>Philip, Acts</hi> 21.8. <hi>Titus</hi> and <hi>Timothy.</hi>
+               </p>
+               <p n="3">3. The work of an Evangeliſt is a preaching work, 2 <hi>Tim.</hi> 4.5. <hi>Do the work of an Evangeliſt, make full proof of thy Miniſtry;</hi> and differs from that which <hi>Mark</hi> and <hi>Luke</hi> did, as is thought, concerning the Goſpels, who only wrote them as dictated by the Apoſtles.</p>
+               <p>Now this work being not extraordinarily in the Church, as can be made to appear by any work remaining in the Church, for its publick edification; it remains that it ought to be in the Church ordinarily for the Churches edification.</p>
+               <p n="2">2. That it is an ordinary work pertaining to an ordinary ſtand<g ref="char:EOLhyphen"/>ing office in the Church to remain to the worlds end, ap<g ref="char:EOLhyphen"/>pears;</p>
+               <pb n="6" facs="tcp:116690:8"/>
+               <p n="1">1. From <hi>Rom.</hi> 10.5. How beautiful are the feet of <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> thoſe that Evan<g ref="char:EOLhyphen"/>gelize peace, that Evangelize good things, which without queſti<g ref="char:EOLhyphen"/>on is no other but the ordinary office of that part of Miniſtry in the Church, thus in 1 <hi>Pet.</hi> 1.12. thoſe things are now reported to you, by them which have Evangelized; which Evangelizing was no other then what is proper to the ordinary Miniſtry; for it was no other then the applying of the grace propheſied of, to be under the Goſpel-Miniſtry, to the then times in which it was adminiſtred.</p>
+               <p>
+                  <hi>Object.</hi> Were not <hi>Timothy</hi> and <hi>Titus</hi> Evangeliſts, and have we not their Epiſtles?</p>
+               <p>
+                  <hi>Reſp.</hi> The Epiſtles written to them were the Apoſtle <hi>Pauls</hi> Epiſtles, not theirs; ſo that they left nothing thereby to the Church as theirs.</p>
+               <p n="2">2. They left in their name of Evangeliſt this unto the Church, that there was ſuch on office pertaining to the Church-Mini<g ref="char:EOLhyphen"/>ſtry in the primitive times, and that that office ought to be ſtill in the Church for edification.</p>
+               <p>
+                  <hi>Chryſoſtom,</hi> on the words aforeſaid, <hi>Epheſ.</hi> 4.11. tels us of walking Evangeliſts, and after of others; <hi>Qui occupabantur cir<g ref="char:EOLhyphen"/>ca unum duntaxat locum, ut Timoth. &amp; Titus; alias, ex hoc loco ſubiectio &amp; praelatura colligi non potest;</hi> which is, that other E<g ref="char:EOLhyphen"/>vangeliſts were imployed about one only place, as <hi>Timothy</hi> and <hi>Titus;</hi> or hence ſubjection and prelature cannot be gathered.</p>
+               <p>For the walking Evangeliſt, I ſuppoſe, there were none in the Church Authoritatively, but as <hi>Acts</hi> 14.7. ſome men Evange<g ref="char:EOLhyphen"/>lized, being by perſecution diſperſed, did where ever they came, out of the gracious apprehenſions they had in their hearts of the excellency of Chriſt, exalt him to others, by which they may be ſaid to Evangelize, <hi>Mat.</hi> 11.5. <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the poor are Evangelized. So that, I ſuppoſe, there is much difference be<g ref="char:EOLhyphen"/>tween one ſpeaking, as Evangelized, or taught by an Evangeliſt, and an Evangeliſt teaching one to be Evangelized.</p>
+               <p>The Concluſion hence concerning the Evangeliſts Miniſtry may be this:</p>
+               <p n="1">1. That that Church which is without the ordinary admini<g ref="char:EOLhyphen"/>ſtration of an Evangeliſt, is an imperfect Church, and imper<g ref="char:EOLhyphen"/>fect Church-Miniſtry.</p>
+               <pb n="7" facs="tcp:116690:8"/>
+               <p n="2">2. That if <hi>Moſes</hi> were careful to do all things according to the pattern in the Mount, concerning the ſhadows of the Goſpel<g ref="char:EOLhyphen"/>grace, then there ought to be much more reſpect had by us now concering the diſpenſation of the word contained in the Goſ<g ref="char:EOLhyphen"/>pel: <hi>Moſes</hi> left not out a ring or an ouch, but made all accord<g ref="char:EOLhyphen"/>ing to the pattern; for which faithfulneſs of his God left him commendations in the word, to be preacht in the Church to the end of the world; and why? but that his fidelity may make us faithful, and ſhew how God accepts it in whomſoever he finds it; now of what concernment this is to Magiſtrate and Mini<g ref="char:EOLhyphen"/>ſter, may appear to all, in theſe times eſpecially.</p>
+               <p n="3">3. I cannot but conceive, that when the way of God comes clearly to be revealed, God will gather up the Spirits of his Saints into a gracious union again, though now divided: When the controverſie about a right Miniſtry, about making Members, and ſeperation, and combination in the Miniſtry, will be taken all up and ended.</p>
+            </div>
+            <div type="part">
+               <head>The fourth Officer in the Church is the Paſtor.</head>
+               <p n="1">1. That this Office ought to be in the Church, is confeſſed; but what it is, and how to be imployed in the Church, that is not agreed on.</p>
+               <p n="2">2. If this be not known to us, no wonder then if not the E<g ref="char:EOLhyphen"/>vangeliſts, which was an office tending more fully to perfecti<g ref="char:EOLhyphen"/>on. Some ſay the Paſtors Office is to expound Scriptures, others to exhort; this is no diſtinct Office in our meetings, every one doing the ſame in his dayly Miniſtry; ſo that this part of Mi<g ref="char:EOLhyphen"/>niſtry we have not in the Church, or at leaſt, not diſtinctly, as in the Miniſtry in the Apoſtles times uſed in the Church.</p>
+               <p n="3">3. I ſuppoſe, that both Evangeliſts and Paſtors loſt their place with the Churches loſing her viſibility, &amp; ever ſince have been in that loſt eſtate. <hi>Cant.</hi> 5.7. it is ſaid, the watchmen beat her and wounded her, and thoſe that kept the walls took away her vayl, which ſignified, as ſome conceive, that perſecution the Church ſhould undergo under the Goſpel by perſecutors, and then how Antichriſt ſhould take away her vail, depriving her of her Ornaments, which Chriſt had left her to be adorned with in the world; then the reſtoring of which there cannot be a
+<pb n="8" facs="tcp:116690:9"/>work more admirable to be done by Angels or men, by the godly Magiſtrate or Miniſter.</p>
+            </div>
+            <div type="part">
+               <head>The fifth Officer, is the Doctor or Teacher, which office is not now ſo executed amongſt us, as under the firſt Inſtitution, it being not done in a Church way.</head>
+               <p>
+                  <hi>Object.</hi> Then it may ſeem hence we have no Miniſtry.</p>
+               <p>
+                  <hi>Reſp.</hi> I ſay not, we have no Miniſtry, but no Church-Mini<g ref="char:EOLhyphen"/>ſtry; for beſides theſe, there was a Miniſtry which prepared for the Church, but was not of the Church-Miniſtry.</p>
+               <p n="1">1. It went before the Collection of Churches; as <hi>John</hi> the Baptiſt, who went before to prepare for Chriſts Miniſtry, and to this it is Chriſt alludes; ſaying, that the leaſt in the Kingdom of Heaven, that is, the leaſt miniſterial Officer in the Kingdom of Heaven, was greater then he; which implies <hi>Johns</hi> Miniſtry was not of the Kingdoms Miniſtry.</p>
+               <p n="2">2. Chriſt himſelf, before the calling of his Diſciples, and the conſtituting of his Church, did officiate this Miniſtry, <hi>Mat.</hi> 4.17. He is ſaid <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, to preach or to commend the King<g ref="char:EOLhyphen"/>dom of God to men, which was to prepare for a Church, and after that was gathered, then he Teacheth and Evangelizeth, <hi>Acts ult.</hi> 31. <hi>Paul</hi> was ſaid to be <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> preaching, <hi>ſc.</hi> to prepare the people, and then being prepared, he is ſaid alſo <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> to teach them; theſe two are diſtinct things, and are to be performed by divers adminiſtrations.</p>
+               <p n="3">3. Chriſt did, as I may ſo ſay, this part of Miniſtry in refer<g ref="char:EOLhyphen"/>ence to his Diſciples Miniſtry, which was to ſucceed him, who were indeed to erect the Kingdom State to the world, which before Chriſts death was not to be ſet up; his death putting an end to the other adminiſtration: hence our Saviour ſpeaks, as unto a people out of Church-Society, <hi>Mat,</hi> 12. the whole Chapter.</p>
+               <p n="4">4. In the Scripture, the order obſerved by the Holy Ghoſt in the expreſſion is to be obſerved, the Lord placing preaching before teaching, the one being a Miniſtry to be communicated to all, the other only to thoſe that are in Church-fellowſhip, and of the communion of Saints, and always followeth the other.</p>
+               <pb n="9" facs="tcp:116690:9"/>
+               <p>Now for this Miniſtry, as well as the other, ought to be con<g ref="char:EOLhyphen"/>tained in the world ſtill, for though the Apoſtle tells us, that the other of Evangeliſts, Paſtors and Teachers belong only to the Church for the edifying of the Church; yet he ſaith not, this ought not to be exerciſed for the preparing men for that other Miniſtry of the Saints, as the Temple ſtones ſquared before brought to the Temple to be layd on the building.</p>
+               <p>
+                  <hi>Queſt.</hi> If our Miniſtry eſtabliſhed amongſt us at preſent be a Church-Miniſtry?</p>
+               <p>
+                  <hi>Reſp.</hi> I ſhall ſpeak this to all that are godly and wiſe to judg of by what hath been ſaid: I do not deny God hath a Church by this Miniſtry, that now is in this Kingdom, but is an inviſible one only.</p>
+               <p>
+                  <hi>Quest.</hi> What our Miniſtry hath done then amongſt us?</p>
+               <p>
+                  <hi>Reſp.</hi> It hath only prepared for a Church.</p>
+               <p>
+                  <hi>Object.</hi> It may be, ſome will ſay, the Miniſters now do all theſe in their places.</p>
+               <p>
+                  <hi>Reſp.</hi> But by what warrant we do theſe things, were very good for us all to conſider of.</p>
+               <p n="2">2. How, or to whom to apply the words of <hi>James,</hi> I know not, unleſs in this kind, that ſome men, then as we now did un<g ref="char:EOLhyphen"/>dertake the diſpenſations of divers adminiſtrations among the Jews, <hi>James</hi> 3.1. be ye not <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> many teachers, (conſider the Reaſon rendred that ſeems to clear it) knowing we ſhall receive the greater condemnation, and ye know <hi>Timo<g ref="char:EOLhyphen"/>thy</hi> a man highly commended for gifts and grace, yet undertakes it not until he be called thereto by <hi>Paul;</hi> he bidding him do the work of an Evangeliſt, 2 <hi>Tim.</hi> 4.</p>
+               <p>
+                  <hi>Object.</hi> But it may be ſaid, <hi>Paul</hi> executeth all theſe.</p>
+               <p>
+                  <hi>Reſp.</hi> 1. That which the Apoſtle did by Inardiat call and war<g ref="char:EOLhyphen"/>rant from Chriſt is one thing, we of the contrary are forbid<g ref="char:EOLhyphen"/>den it.</p>
+               <p n="2">2. The Apoſtles were to do all, to teach others to do it when others were fit to do it, then they put them to do it alſo.</p>
+               <p>That Evangeliſts, Paſtors and Teachers are three diſtinct pub<g ref="char:EOLhyphen"/>like offices, and are executed in every Church, is proved by the Epiſtles written to the Churches.</p>
+               <pb n="10" facs="tcp:116690:10"/>
+               <p n="1">1. <hi>Rome,</hi> a Church conſtituted according to the Goſpel frame, <hi>Chap.</hi> 12. <hi>ver.</hi> 6, 7, 8. <hi>Having then gifts differing according to the grace that is given to us; where propheſie, let us propheſie, or Miniſtry, let us wait on Miniſtry, or exhortation, let us wait on exortation, or he that teacheth, on teaching:</hi> It is without all queſtion, the Apoſtle ſpeaks here of publike Miniſtry, and of pri<g ref="char:EOLhyphen"/>vate Chriſtian duty, and only of Church-Miniſtry.</p>
+               <p n="1">1. They are joyned ſubordinately to propheſie a publike duty.</p>
+               <p n="2">2. They are commanded to wait on them.</p>
+               <p n="3">3. Each man is injoyned a waiting on his own work only, and not others.</p>
+               <p n="4">4. The Apoſtle ſaith they are differing gifts.</p>
+               <p n="5">5. Ruling, a publike office follows them, and then private du<g ref="char:EOLhyphen"/>ties after that again; and whereas the Apoſtle ſaith, they are di<g ref="char:EOLhyphen"/>verſe gifts: I cannot but think, that if ever there were a Church rightly conſtituted in this Kingdom, greater gifts would be be<g ref="char:EOLhyphen"/>ſtowed on men, then any have been ſince the Apoſtles time, whence once they came to be imployed to that end which the Lord or<g ref="char:EOLhyphen"/>dained them.</p>
+               <p>I grant indeed, that in the Scripture all the Church-Miniſtry is ſet out oft times by one word in Scripture, as <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> and the like, but the Scriptures are not then wanting to prove the truth of this doctrine, for theſe are in the plural num<g ref="char:EOLhyphen"/>ber, ſignifying, God had reſpect to more then one Teacher in a Church.</p>
+               <p n="2">2. That the three are but one compleat Miniſtry.</p>
+               <p n="3">3. That they all belong but to one Church.</p>
+               <p n="4">4. That what the one doth the other doth, but in a different kind.</p>
+               <p n="5">5. That ſuperiority, was not to be ſought for of them, nor to be amongſt them.</p>
+               <p>
+                  <hi>Object.</hi> This is a way never to be errected; in theſe times we have not one Miniſter for a Church, you ſay we ſhould have three.</p>
+               <p>
+                  <hi>Reſp.</hi> What may the world have ſaid, when there were but twelve Apoſtles only, yet they ſet up many Churches in a little time againſt many enemies, and in the time of Heatheniſh darkneſs.</p>
+               <pb n="11" facs="tcp:116690:10"/>
+               <p n="1">1. God will not be wanting to his own Ordinance.</p>
+               <p n="2">2. Five men, in this way, may do more in a City, then fifteen now do.</p>
+               <p n="3">3. Though this was ſcarce done in the Country villages, in the Apoſtles time, yet now in many places, the Miniſtry having pre<g ref="char:EOLhyphen"/>vailed ſo with the people, they are far more meet hereto now, then otherwiſe they could have been, or the villagers were, in <hi>Pauls</hi> time; for the Apoſtles at firſt erected the Churches in the chief Cities of the world, as appears by their Epiſtles, being places in which the greateſt confluence of people were; and hence the villagers were called <hi>Pagani quaſi ex pagis,</hi> the villages of many Continents being a long time ignorant of the Goſpel after it had been preached in the Cities thereof.</p>
+               <p>The third Church I ſhall now ſpeak of is that of <hi>Corinth.</hi>
+               </p>
+               <p n="1">1 <hi>Cor.</hi> 12.4. The Apoſtle tells us that <hi>there are diverſities of gifts;</hi> and after tells what theſe gifts are, in theſe words, <hi>To one is given the word of knowledg, to another the word of wiſdom.</hi>
+               </p>
+               <p n="2">2. Leſt any ſhould appropriate theſe to one individual perſon, ordinarily he diſtinguiſhed them, and ſaith, <hi>to one,</hi> and <hi>to another,</hi> and therefore not to the ſame man.</p>
+               <p n="3">3. Leſt any ſhould think theſe were meant of gifts given to private men only, he ſaith, That <hi>theſe divers gifts have alſo divers adminiſtrations</hi> added to them, which is properly applyed to pla<g ref="char:EOLhyphen"/>ces of office and truſt.</p>
+               <p n="4">4. In Verſ. 7. the Apoſtle ſaith, <hi>The Spirits manifeſtation is given to every man to profit withall:</hi> ſhewing that the Church by the help of the Spirit, had the benefit of all theſe gifts in the ſeveral Adminiſtrations of the Goſpel.</p>
+               <p n="4">4. To theſe ſeveral Churches add the courſe of our Saviour, who gave us an example herein, <hi>Mark</hi> 6.7. When he did ſend forth his Diſciples he ſends them forth two by two to preach the Goſpel, which proves the work of the Miniſtry not to be a ſingle work.</p>
+               <p>
+                  <hi>Object,</hi> Chriſt ſends forth two only, you ſay there ſhould be three.</p>
+               <pb n="12" facs="tcp:116690:11"/>
+               <p>
+                  <hi>Resp.</hi> 1. None was fit to officiate the Evangeliſts while that Chriſt was alive, and this he was <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, I remember not that ever the Apoſtles, during Chriſts being on earth, were ever ſaid to Evangelize: Chriſt was that to them they are now to us; they teaching what they received from him, as we teach what we received from them.</p>
+               <p n="2">2. The time of gathering Churches was not yet come; they, during Chriſts being on earth, ſaid only as <hi>John, The Kingdom of Heaven is at hand.</hi>
+               </p>
+               <p n="3">3. They were but to prepare for the Kingdom, until, upon the Lords Aſcenſion, they ſhould have ſent down on them the Spirit of grace to inable them thereunto.</p>
+               <p n="4">4. The compleat Church was not to be, until the world, or time to come, ſo called among the Jews, which was that time which was to ſucceed <hi>Moſes</hi> Miniſtry, and therefore as the Church was not to be compleat ſo was not the Miniſtry.</p>
+               <p>And here I cannot paſs by the common acceptation of the word <hi>Church;</hi> it was groſs when only taken for the places of Aſſembly, and indeed it is but little better as taken for our mixt aſſemblies. Again others they prove their Church to be a true Church from the right Adminiſtration of Sacraments, and true preaching of the Word: but where, or in what ſociety, this is done, as yet I am altogether ignorant of.</p>
+               <p>But that the Scripture holds out is clear.</p>
+               <p n="1">1. Three diſtinct perſons to be teachers in the Church.</p>
+               <p n="2">2. Diſtinguiſhed by diſtinct Appellations, as Evangeliſt, Paſtors and Teacher.</p>
+               <p n="3">3. Qualified with differing gifts.</p>
+               <p n="4">4. Have ſeveral Adminiſtrations committed to them to exerciſe their gifts in.</p>
+               <p n="5">5. That all theſe are but one compleat Miniſtry, belonging to one Church only.</p>
+               <p>
+                  <hi>Queſtion</hi> is, How all theſe can be exerciſed in one Church?</p>
+               <p>
+                  <hi>Reſol.</hi> The Church of the Jews, being the Mother Church, and above all moſt excellently conſtituted; I ſhall propoſe that for a further example to clear up this myſtery, to help us whereunto, it
+<pb n="13" facs="tcp:116690:11"/>is neceſſary we make uſe of thoſe words in <hi>Galat.</hi> 2.9. where it is agreed amongſt the Apoſtles that <hi>James, Cephas</hi> and <hi>John</hi> be Mi<g ref="char:EOLhyphen"/>niſters to the Jews, ſet out by the Circumciſion, and <hi>Paul</hi> and <hi>Baritabas</hi> for the Gentiles.</p>
+               <p>
+                  <hi>James</hi> is here placed for Evangeliſt, <hi>Peter</hi> for Paſtor, <hi>John</hi> for the Teacher of the Jews Church.</p>
+               <p>
+                  <hi>James,</hi> who was the Evangeliſt, whoſe work it was to lay the foundation of the Church among the Jews, as <hi>Paul</hi> among the Gentiles, writes his Epiſtles to ſuch as were without the Church to prepare for it in the firſt place.</p>
+               <p n="1">1. As appears by the word Synagogue, where the Goſpel was not preached but as to a mixt multitude, as appears in all the teach<g ref="char:EOLhyphen"/>ings of the Apoſtles mentioned in the <hi>Acts,</hi> and is ſpoken of in Scripture in oppoſition to Church-ſociety, <hi>Acts</hi> 13.43. <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> the Congregation be diſmiſſed.</p>
+               <p n="2">2. As by the nature of the doctrine appears, he calls upon ſome to waſh their hands and cleanſe their hearts, to put away out<g ref="char:EOLhyphen"/>ward and inward corruptions with which they were defiled: In the 5. <hi>Chap.</hi> he threats wo againſt them for oppreſſing the labor<g ref="char:EOLhyphen"/>ers: <hi>James</hi> 5.19, 20. he writes to unconverted perſons.</p>
+               <p n="3">3. As appears by the dedicating his Epiſtie, he writes it not to any by the name of a Church, as men called out of the world, in communion with Chriſt; not to ſuch as were Saints, nor to ſuch as were called of God, nor to thoſe that were apprehended to pertain to Gods Election; only he adds the word <hi>Brother</hi> to it, a word of common relation, when uſed ſingly, and without other expreſſion thereto.</p>
+               <p>
+                  <hi>Que.</hi> Why <hi>James</hi> had not rather written as an Evangeliſt to his own Charge?</p>
+               <p n="1">1. This was part of his own Miniſtry, he being to begin the work among the Jews as well as to perfect; and to this I con<g ref="char:EOLhyphen"/>ceive our Saviour may allude, when he ſaith, That <hi>he that would be greateſt ſhould be their ſervant;</hi> which in this work he did, as it were, ſerve in his Miniſtry to the Doctor and Paſtor, though af<g ref="char:EOLhyphen"/>ter they did again, as it were, ſerve to him in the other part of his Miniſtry.</p>
+               <pb n="14" facs="tcp:116690:12"/>
+               <p>The ſecond part of Miniſtry, that attended next the preparatory Miniſtry, was that of the Doctor; for though the Apoſtle, in de<g ref="char:EOLhyphen"/>ſcending, begins with the Apoſtles, the moſt eminent in the Church, and ends with the loweſt; ſo, if we aſcend, we muſt begin at the loweſt and end in the chiefeſt, and this was <hi>Johns</hi> work.</p>
+               <p n="1">1. How clearly this appears in the Epiſtle from the difference of the matter and maner of teaching of that that is written in the E<g ref="char:EOLhyphen"/>piſtle of <hi>James,</hi> That the one was of the Church Miniſtry, the other to mixt Societies; this of <hi>Johns</hi> is full of ſweetneſs, the other of terror; to one he tells them <hi>You are beloved, you are ſanctified, you are called the ſons of God, you have paſſed from death to life: James</hi> cals thoſe he writes unto <hi>Adulterers and Adultereſſes,</hi> and tells them <hi>their tongues are ſet on fire of hell.</hi>
+               </p>
+               <p n="2">2. How clearly it appears that <hi>John</hi> was Doctor or Teacher of the babes in the <hi>Church of Jeruſalem,</hi> is evident;</p>
+               <p n="1">1. In that he directs it to the little children, 1 <hi>John</hi> 2.1. and theſe he names before either fathers or young men.</p>
+               <p n="2">2. He calls them <hi>My little children;</hi> he doth not appropriate any ſuch intereſt to himſelf, either in the young men, when he ſpeaks of them, or the fathers.</p>
+               <p n="3">3. 1 <hi>Iohn</hi> 2.18, 19. He comforts the whole Congregation of chil<g ref="char:EOLhyphen"/>dren againſt the apoſtacy of ſome, ſaying, <hi>They went out from us;</hi> mark the emphaſis of the expreſſion in the Apoſtles ſtile joyn<g ref="char:EOLhyphen"/>ing him to the ſociety of the Infants.</p>
+               <p n="4">4. The whole doctrine is doctrine for babes; ſpeaking of the new birth, of paſſing from death to life, of being anointed, and being called the ſons of God; and many other ſigns only to ſet forth and to diſcover the ſtate of regeneracy from unregeneracy.</p>
+               <p>The third part of Miniſtry, or ſecond of the Church-Miniſtry, and that is the Paſtors office, and this was done by <hi>Peter:</hi> Now that his Miniſtry was to the young men, which <hi>Iohn</hi> had before mentioned in his Epiſtle, appears from his ſecond Epiſtle, which, it is like, was written to his particular charge in <hi>Ieruſalem,</hi> he being, as it ſhould ſeem by the poſtſcript, abſent from thence.</p>
+               <pb n="15" facs="tcp:116690:12"/>
+               <p n="2">2. In the Introduction he calls them Elect, and looks on them as ſuch as had received like precious faith, which in the other E<g ref="char:EOLhyphen"/>piſtle he writes to the diſperſed only.</p>
+               <p n="3">3. The doctrine proves it, in that the whole Epiſtle doth con<g ref="char:EOLhyphen"/>cern ſuch only as are exerciſed in the underſtanding of the Scrip<g ref="char:EOLhyphen"/>tures, <hi>Chap.</hi> 1. he calls on them to add vertue to vertue; and tells them <hi>ver.</hi> 11. ſo an entrance ſhall be miniſtred to them abun<g ref="char:EOLhyphen"/>dantly into the Kingdom of our Lord and Saviour Jeſus Chriſt; its not to be queſtioned but they were entred; but the Apoſtle ſpeaks of a more further degree obtainable, which they were to ſtrive to enter into in this life.</p>
+               <p n="2">2 <hi>Pet.</hi> 2.20, 21. <hi>If, after they have eſcaped the pollutions of the world, by the knowledg of our Lord, they are again intangled, the latter end of them is worſe then the beginning:</hi> And again, <hi>It had been better they had not known the way of righteouſneſs, then after they have known it to turn away.</hi> It is clear hence, the A<g ref="char:EOLhyphen"/>poſtle here ſpeaks only to ſuch as had their ſences exerciſed in the knowledg of the Goſpel, as in the laſt words of the Epiſtle, <hi>Grow in grace, and in the knowledg of our Lord and Saviour.</hi>
+               </p>
+               <p n="3">3. This agreeth to the name given to him that exerciſeth this part of the Miniſtry, which is Exhorter, he exhorting to perfection.</p>
+               <p>The fourth part of Church-Miniſtry, which is the Evangeliſts part, that the Church of the Jews may be a perfect pattern to all others, the ſupply hereof was done by the <hi>Apoſtle Paul</hi> in his E<g ref="char:EOLhyphen"/>piſtle to the <hi>Hebrews.</hi>
+               </p>
+               <p n="1">1. That this was written to the ſtrong Chriſtians, is clear from <hi>Heb.</hi> 6.1. <hi>Not laying again the beginnings of Chriſt, repentance from dead works, but let us go on to perfection.</hi>
+               </p>
+               <p n="2">2. He ſaith of thoſe he wrote to, they might have been teachers of others, who have now need to be taught again the firſt prin<g ref="char:EOLhyphen"/>ciples.</p>
+               <p n="3">3. <hi>Peter,</hi> in his ſecond Epiſtle, <hi>Chap.</hi> 3. <hi>ver.</hi> 15. gives it this ſtile, that it was <hi>written according to the wiſdom given to beloved Paul:</hi> It is very obſervable, that it was ſaid to be done accord<g ref="char:EOLhyphen"/>ing to his wiſdom, that is, according to the excellency and depth of that that was given to him.</p>
+               <pb n="16" facs="tcp:116690:13"/>
+               <p>Hence, I ſuppoſe, may be given the true and only Reaſon of the Apoſtle <hi>Pauls</hi> not prefixing his name to the Epiſtle of the <hi>He<g ref="char:EOLhyphen"/>brews.</hi>
+               </p>
+               <p n="1">1. Becauſe he was not the Apoſtle of the <hi>Jews,</hi> therefore he writes not himſelf Apoſtle, and then becauſe, if he had write himſelf otherways to the Church, it had been, as it were, a diminiſhing his Authority, in which he was not inferior to any of the Apoſtles.</p>
+               <p n="2">2. Hence <hi>James</hi> writes not himſelf Apoſtle in the Epiſtle writ<g ref="char:EOLhyphen"/>ten by him, becauſe written to ſtrangers, and ſuch as were not in the fellowſhip of Saints.</p>
+               <p n="3">3. It is clear, the Apoſtle conceals not his name in the Epiſtle of the <hi>Hebrews,</hi> becauſe of the <hi>Jews,</hi> being offended at his writing or doctrine for his ſake, as ſome ſuppoſe.</p>
+               <p n="1">1. <hi>Peter,</hi> in his Epiſtle to the Church, ſhews that <hi>Paul</hi> had written an Epiſtle to them which, could be no other then that we had, unleſs any other be writ ten or loſt.</p>
+               <p n="2">2. <hi>Peter</hi> cals him there, beloved Brother <hi>Paul.</hi>
+               </p>
+               <p n="3">3. In the laſt Chapter of the <hi>Hebrews,</hi> the Auther ſaith, that if <hi>Timothy</hi> came ſhortly, he would come with him: Now <hi>Timothy</hi> was <hi>Pauls</hi> companion, and fellow-labouror in the Goſpel, and he was known to the Church, and acceptable to them, or he had not ſaid he would come to them.</p>
+               <p n="4">4. He had been at <hi>Jeruſalem</hi> many times, as appears in the Scriptures, and was received of the Church, and had the right hand of fellowſhip from the Apoſtles and Elders of the Church given him.</p>
+               <p n="5">5. An example of this is alſo to be ſeen in the Church of <hi>Colloſs, Chap.</hi> 3.10. <hi>Put off the old man, and put on the new man,</hi> which is the firſt work of Chriſtianity, containing the doctrine of repen<g ref="char:EOLhyphen"/>tance.</p>
+               <p n="2">2. <hi>ver.</hi> 12. <hi>Put on as the elect of God, bowels of mercies;</hi> here is a<g ref="char:EOLhyphen"/>nother putting on for the exerciſe of Chriſtianity.</p>
+               <p n="3">3. To all theſe they were to <hi>put on charity, the bond of perfe<g ref="char:EOLhyphen"/>ction;</hi> And after, Verſe 15. he ſpeake of peace which is the do<g ref="char:EOLhyphen"/>ctrine of the Evangelical preacher, which holds out a three-ſold e<g ref="char:EOLhyphen"/>ſtate to be aimed at by the Apoſtle to be in the Church of <hi>Coloſs.</hi>
+               </p>
+               <pb n="17" facs="tcp:116690:13"/>
+               <p>Firſt, Hence note that the Apoſtles never did the work of the Miniſtry alone by themſelves, <hi>Phil.</hi> 2.22. <hi>Timothy</hi> was ſaid to ſerve with <hi>Paul</hi> in the Goſpel, as being done con<g ref="char:EOLhyphen"/>junctively by them in the ſame Church, to the ſame end, and the ſame Miniſtry, and the ſame times, though in a differing way of Adminiſtration.</p>
+               <p>Secondly, Hence in no Church, unleſs on extraordinary occaſions, were there more then three teaching Miniſters; a clear evidence that three were a compleat Miniſtry at the di<g ref="char:EOLhyphen"/>viſions of the Church of <hi>Antioch, Acts</hi> 15. It is true, there were many teachers, but they were ſuch as came from <hi>Ieru<g ref="char:EOLhyphen"/>ſalem</hi> to eſtabliſh the brethren, who when they ſaw the Church eſtabliſhed left them and departed: And again, they were not there as Paſtors to the Church.</p>
+               <p>Thirdly, They went no where to the work, but two or three went together, <hi>Acts</hi> 15.36, 37. <hi>Acts</hi> 19.22. <hi>He ſent two of them that miniſtred to him:</hi> Here it may ſeem the Apoſtle had more then two helpers: It is true, he may have three, as Apoſtle, to miniſter to him, his office being to prepare for the Church as wel as to edifie thoſe that were in ſociety, which he may for a time commit to ſome faithful man.</p>
+               <p>Fourthly, In all the Epiſtles the Apoſtle never writes to any Church in which he acknowledgeth not others to have joyned with him, in the work of the Miniſtry to the conſti<g ref="char:EOLhyphen"/>tuting of the Church he wrote unto, 1 <hi>Theſ.</hi> 2.1. <hi>Ye know our: enterance to you,</hi> which ſhews <hi>Paul</hi> came not alone, when he came to do the work of the Goſpel at <hi>Theſſalonica:</hi> thus 2 <hi>Tim.</hi> 4.11. <hi>Only Luke is with me, take Mark and bring himwith thee, for he is profitable to me in the Ministry.</hi>
+               </p>
+               <p>Firſt, <hi>Paul</hi> had not need of <hi>Mark</hi> to inſtruct him in any thing concerning the Miniſtry, nor was he a lazy Paſtor to ſit ſtill while <hi>Mark</hi> preached.</p>
+               <p>Secondly, He had <hi>Luke</hi> with him, yet he muſt have <hi>Mark</hi> brought alſo, ſeeing there was work for more then two, where <hi>Paul</hi> was miniſtring.</p>
+               <p>Thirdly, He ſaith all were gone from him, which ſhews
+<pb n="18" facs="tcp:116690:14"/>that he had helps with him before, and this was for the diſ<g ref="char:EOLhyphen"/>penſations of the Word, and not as any helps in government of the Church by lay Elders, as we ſay.</p>
+               <p>
+                  <hi>Application:</hi> Hence may we not conclude, that there is a threefold Adminiſtration of the Miniſtry in the Church to be uſed, which the Apoſtles themſelves did not exerciſe alone in the Church without the help of others.</p>
+               <p>Secondly, If any could do it, or ſhould have done it, the Apoſtles ſhould.</p>
+               <p>Thirdly, If they did it not, then we ought not to do it; for who is ſufficient for theſe things? If the Apoſtles were not, how ſhall we think our ſelves to be?</p>
+               <p>Fourthly, Hence it is clear, the work of the Miniſtry is not now rightly done amongſt us, and the greateſt Reformation that ever was made in Eccleſiaſtical things, is to be made, we being all as yet without Church and Church-Miniſtry, and yet alſo confident of their way &amp; judgment, as that theywil fight to uphold it, and dye for it; O what comfort will proceed from hence to us! Let us firſt know the truth, and then ſtand and ſtrive together for it.</p>
+               <p>
+                  <hi>Queſt.</hi> Whether theſe differing Adminiſtrations differ not in degrees?</p>
+               <p>
+                  <hi>Resp.</hi> Yea, more is required in the Miniſtry of the Apoſtle and Prophet, then in the Evangeliſt, more in the Paſtor then in the Teacher; ſo the Apoſtle 1 <hi>Cor.</hi> 12.5. <hi>There are differ<g ref="char:EOLhyphen"/>ing Adminiſtrations.</hi>
+               </p>
+               <p>Firſt, The Adminiſtration is according to thoſe to whom it is adminiſtred unto: Now the Doctors adminiſtred to babes only, the Evangeliſts to men, the Apoſtles to Evangeliſts, Chriſt to the Apoſtles; thus <hi>John</hi> writ to his children, young men and fathers.</p>
+               <p>Secondly, The Church of God is called the houſe of God, and a great houſe in the Scripture, n which are infants, young
+<pb n="19" facs="tcp:116690:14"/>men, fathers, and yet all but one Family, ſo theſe divided Con<g ref="char:EOLhyphen"/>gregations make but one Church.</p>
+               <p>Conſider but the Agreement of theſe:</p>
+               <p n="1">1. In their number; an Evangeliſt, Paſtor, Teacher, for men, young men and babes.</p>
+               <p n="2">2. In the conſtitution; one Miniſtry, one Church, all three one, both in the Miniſtry, and in thoſe that are to be miniſtred unto, it is but to perfect the ſame man.</p>
+               <p n="3">3. The Conſtitutors only are differed in their gifts by a <hi>majus</hi> and a <hi>minus;</hi> ſo the conſtituted are the ſame, only dif<g ref="char:EOLhyphen"/>ferenced by the degrees of ſtature and perfection, that is ob<g ref="char:EOLhyphen"/>tained under the diſpenſations of the Miniſtry.</p>
+               <p n="4">4. The ones Miniſtry ends in the other, the Doctors in the Paſtors, the Paſtors in the Evangeliſts; to thoſe it is miniſtred unto; the childhood is ſwallowed up in youth, the youth in manhood, as the leſſer is ſwallowed up in the greater light.</p>
+               <p>
+                  <hi>David</hi> Evangelically ſpake hereof, <hi>Pſal.</hi> 84.7. <hi>They ſhall go from ſtrength to ſtrength, until they appear perfect before God in Sion:</hi> The Apoſtle alludes here to the Goſpel ſtate, as in 1 <hi>Pet.</hi> 1.12. <hi>They did miniſter theſe things to us, not to themſelves, that are reported to us:</hi> they not having the grace we have in the fellowſhip of the Goſpel under their Moſaical Miniſtry; the words in the Original ſeem more fully and clearly to aim at ſuch a thing, <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, which, as in the ordinary marginal notes is read, <hi>they ſhal go from com<g ref="char:EOLhyphen"/>pany to company;</hi> and ſo <hi>Kerkeras</hi> of the word <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>ſaepiſ<g ref="char:EOLhyphen"/>ſime collective pro cietu uſurpatur;</hi> oft times the word is uſed collectively for accompany. Again a <hi>Gospel</hi> teſtimony ſeems to be of this thing, in 2 <hi>Cor.</hi> 3.18. <hi>We all with open face, beholding, as in a glaſs, the glory of the Lord, are changed into the ſame image, from glory to glory, as of the Lord the Spirit.</hi>
+               </p>
+               <pb n="20" facs="tcp:116690:15"/>
+               <p n="1">1. Generally, the Apoſtle ſhews the work is the Spirits that is here ſpoken of.</p>
+               <p n="2">2. The firſt part of it is an unvailing the face, which muſt be done and is done in all, which is the firſt degree of grace, having in it the diſcovery of Jeſus Chriſt.</p>
+               <p n="3">3. Upon this diſcovery he is by ſanctification of the Spirit ſaid to be changed in his life and in himſelf to a glorious e<g ref="char:EOLhyphen"/>ſtate.</p>
+               <p n="4">4. This glory hath yet another change to glory, that is to a greater meaſure of ſanctification and grace.</p>
+               <p>Some underſtand theſe words, <hi>from glory to glory,</hi> to have reſpect to grace here and glory hereafter, but the words be<g ref="char:EOLhyphen"/>fore make it plain, that here is underſtood none elſe but the work of the Goſpel-Miniſtry officiated in the Church by the appointment of Chriſt</p>
+               <p n="2">2. If we look on the words themſelves, they prove as much unto us, for this is to be done by looking on Chriſt in the word as in a glaſs, a clear diſtinction uſed by the Apoſtle to diſtinguiſh the eſtate of Saints here, and that in heaven hereafter, 1 <hi>Cor.</hi> 13.12. <hi>Now we ſee darkly through a glaſs, then face to face;</hi> hear now, and then diſtinguiſh the times preſent and that to come, the <hi>glaſs</hi> and the <hi>face</hi> diſtinguiſh, the manner of the diſcovery of God here, and that which is to be hereafter.</p>
+               <p>The Lord ſpeaks not of the firſt change, becauſe in that the ſoul is not come to be made like to the Lord, nor to have put on his glory; but when he is come to be made like Chriſt, and put on his image, then he is ſaid to be carryed <hi>from glory to glory,</hi> which ſhews that the work of the Miniſtry is to be a work which worketh theſe things by degrees in the Saints, and ſhew forth to us the footſteps of God, having on it the i<g ref="char:EOLhyphen"/>mage and ſuperſcription of God, commending to us his wiſ<g ref="char:EOLhyphen"/>dom and prudence, who far herein exceeds the principles of humane policy and wiſdom.</p>
+               <pb n="21" facs="tcp:116690:15"/>
+               <p>To this alſo ſweetly agreeth the charge of <hi>Chriſt</hi> to <hi>Peter, John ult.</hi> 15.16.17. in which Chriſt commands <hi>Peter</hi> to feed <hi>his lambs, his ſheep, his ſheep.</hi> There are in theſe words of Chriſt cloſely and myſteriouſly meant three ſorts per<g ref="char:EOLhyphen"/>ſons, though but two at firſt ſeem to be only named lambs and ſheep; but he manner of feeding them clearly diſtiugniſh<g ref="char:EOLhyphen"/>eth them.</p>
+               <p>Firſt, The Lord ſaith <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>feed my lambs.</hi>
+               </p>
+               <p>Secondly, The other two are indeed <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> ſheep, which ſeems to make them the ſame, but not without ſome eminent cauſe; the Lord hath clearly diſtinguiſhed them, ſo as that they may be, and are to be underſtood of two ſorts, and this diſtinction is not in themſelves, but the feeding them.</p>
+               <p>Firſt, He gives the younger ſheep the name of the elder, and makes them one with them in that.</p>
+               <p>Secondly, in their feeding, diſtinguiſhing them, ſignified to <hi>Peter,</hi> that in the Miniſtry there was to be exerciſed a dif<g ref="char:EOLhyphen"/>fering adminiſtration, even unto ſheep and ſheep, and not to be taught the ſame doctrines; this appears; to the firſt ſheep, it is ſaid <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> the word here for feeding, is the ſame before for the feeding of the lambs, though they are ſheep. Now, of the other ſheep, which were ſheep indeed, he ſaith, <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> theſe are ſheep; and fed as ſheep; the others are ſheep, and fed as lambs, and may be conſidered as of a differing growth, nor lambs, nor ſheep, but between both.</p>
+               <p>
+                  <hi>Object. Peter</hi> grieved, it is ſaid, to hear Chriſt ſpeak thus three times to him; he underſtood no ſuch thing, and therefore ſure there is no ſuch thing intended in the word.</p>
+               <p>
+                  <hi>Reſp.</hi> Many things were hid as yet from the Diſciples, and likely this, not any Churches being as yet gathered, nor had they yet inſtruction to gather them, <hi>Acts</hi> 1.30. Chriſt was with his Diſciples 40 days, inſtructing them in the things per<g ref="char:EOLhyphen"/>taining to the Kingdom of God, which were eſpecially, doubtleſs, concerning the way God would have taken in the Church for the edification of it.</p>
+               <pb n="22" facs="tcp:116690:16"/>
+               <p>Secondly, Nor were the gifts given thereunto, until after Chriſts Reſurrection, as appears by the words of the Apoſtle mentioned in the <hi>Epheſians,</hi> where it is ſaid, <hi>Chriſt aſcended, and gave gifts unto men.</hi>
+               </p>
+               <p>Thirdly, This clearly proves the Apoſtles had a call to officiate this three-fold office in the Church from Chriſt immediatly, and not only <hi>Peter,</hi> but all the other Apoſtles.</p>
+               <p>Fourthly, That firſt the Saints are to be ſed as lambs, then as younger ſheep, then as elder ſheep; a clearer proof, I think, there needs none, to ſhew the diverſity of gifts and adminiſtrations in the Church ought thus to theſe to be diverſly admini<g ref="char:EOLhyphen"/>ſtred.</p>
+               <p>Thus the Apoſtle (from 2 <hi>Cor.</hi> 6.1. where it is written, <hi>we then as workers together with God,</hi>) Mini<g ref="char:EOLhyphen"/>ſters theſe concluſions to be deduced thence.</p>
+               <p>Firſt, That the Miniſtry of the Goſpel is not one ſingle work, or the work of one only man, as now amongſt us it is done.</p>
+               <p>Secondly, That in the primitive times, there were in every Church, that was conſtituting, two at the leaſt, and in every Church that was conſtituted three.</p>
+               <p>Theſe Miniſters do not teach diſtinctively, but are co ordinate in the work one to the other, and are one for the other, and cannot be one without the other in a conſtituted Church.</p>
+               <p>Tourthly, This Miniſtry in the Church is but
+<pb n="23" facs="tcp:116690:16"/>one Miniſtry, 1 <hi>Cor.</hi> 3.8. <hi>He that plants, and he that waters, are one;</hi> that is, they are one Miniſtry, not one man, which was ſpoken of the Doctors and the Pa<g ref="char:EOLhyphen"/>ſtors work in the Miniſtry.</p>
+               <p>Fifthly, In no conſtituted Church we read of more then three in fellowſhip for the ordinary work of the Miniſtry, 2 <hi>Cor.</hi> 1.15. <hi>Paul, Sylvanus</hi> and <hi>Timothy</hi> are theſe before ſpoken of, and ſaid to work together.</p>
+               <p>Sixthly, Hence it was, I ſuppoſe, the Apoſtle condemns the practiſe of the <hi>Corinthians,</hi> 1 <hi>Cor.</hi> 1.12. for ſaying, <hi>one was of Paul, anothers of Apollo, ano<g ref="char:EOLhyphen"/>ther of Cephas;</hi> Theſe did, or others by theſe intend<g ref="char:EOLhyphen"/>ed, did work together in the Miniſtry. Now it ſeems the infants boaſted themſelves againſt thoſe that were not in Church-Society; the young men boaſted themſelves againſt the children, &amp;c. Now compare the 4 <hi>Chap. ver.</hi> 6.7. the Scriptures clear it, <hi>they were puffed up one against another;</hi> and after ſaith to them, <hi>who made thee to differ?</hi> which ſhew<g ref="char:EOLhyphen"/>eth, that there was not only a difference in the Teacher, but alſo there was a difference made a<g ref="char:EOLhyphen"/>mongſt thoſe that were taught in themſelves with<g ref="char:EOLhyphen"/>in, in their condition without.</p>
+               <p>We of the Miniſtry now that bear the whole burden of the work alone, without queſtion do that that never Apoſtle did, or ought not to be done in the Church: It may be ſaid to us, we take too much upon us, what wiſdom were it if we did ſubmit to the Goſpel rule, and think of a means how in Cities
+<pb n="24" facs="tcp:116690:17"/>to joyn together to the Work of the Lord, as it is commanded.</p>
+               <p>
+                  <hi>Object.</hi> The 1 <hi>Cor.</hi> 4.15, <hi>Though you have ten thou<g ref="char:EOLhyphen"/>ſand inſtructors, yet have ye not many fathers.</hi> Hence it ſhould ſeem the Church of <hi>Corinth</hi> had many more Teachers then three in it.</p>
+               <p>Secondly, Compare 1 <hi>Cor.</hi> 3.12. with it, there are ſeveral builders brought in by the Apoſtles, as ſome building <hi>gold, ſilver, and precious ſtones,</hi> o<g ref="char:EOLhyphen"/>thers are ſaid to build of <hi>hay, wood, and stubble.</hi>
+               </p>
+               <p>
+                  <hi>Reſp.</hi> 1. That the true Church then muſt have ſuc<g ref="char:EOLhyphen"/>ceſſively more true Teachers then three, becauſe the Apoſtle could not ſtay long with them, but having planted the Church here, goeth to ſome other place, but before his departure he ordained others to ſup<g ref="char:EOLhyphen"/>ply his place in his abſence; and of thoſe that went with him to the work elſewhere, and in this kind they muſt have many Teachers, <hi>Acts</hi> 14.23. When they had oadained Elders in every City, they depar<g ref="char:EOLhyphen"/>ted, which ſhews, they departed not until they had ordained Elders.</p>
+               <p>Secondly, The words are a Hyperbolical expreſ<g ref="char:EOLhyphen"/>ſion, and prove nothing in particular; only they had many, and that if they had never ſo many more, he was he that begat them in Chriſt.</p>
+               <pb n="25" facs="tcp:116690:17"/>
+               <p>Now for the ſecond part of the objection taken out of 1 Cor 3.12.</p>
+               <p n="1">1 Note here are two ſorts of teachers diſtingiſhed, the one true, the other falſe, the faithfull teachers are three, the cor<g ref="char:EOLhyphen"/>rupt are the ſame number.</p>
+               <p>The true are diſtingiſht in the difference of the materials ſet down; all are precious, but not all alike precious; it clearly ſhews there was to be a difference in the miniſtry, a difference in gifts, and difference in doctrine; the one inricheth men with ſilver of the Goſpell, the other with the gold of the Goſpell, the other with the precious ſtones of it.</p>
+               <p n="2">2 Now the falſe miniſtry counterfeits the true.</p>
+               <p n="1">1 They will have three in their worke of their miniſtry, as the Apoſtle had in his:</p>
+               <p n="2">2 They differ in the doctrine alſo among themſelves, as hay, wood and ſtubble doe.</p>
+               <p n="3">3 Becaue the Apoſtle was he which laid the foundation of the Church of Corinth, and was the glory of the miniſtry; they will alſo themſelves take on themſelves to be Apoſtles alſo.</p>
+               <p n="4">4 The Apoſtles build immediatly on Chriſt, we on the A<g ref="char:EOLhyphen"/>poſtles, they build on Chriſt immediately not on the Apoſtles; they of ſay <hi>Paul</hi> his ſpeach is contemtible 1 Cor. 3.10. And here I ſuppoſe was the firſt corruption or counterfeiting of the Church and Church deſpenſations, which was not like that mad of Rome, in which not onely things were counter<g ref="char:EOLhyphen"/>feied to pull down, and other ſet up in their ſteed, that for twelve hundred yeeers it hath not been known what the Church was governed by nor how.</p>
+               <p n="1">1 This confirmes there were many teachers in Corinth indeed.</p>
+               <p n="2">2 But no more but three only in Church fellowſhip to<g ref="char:EOLhyphen"/>gether.</p>
+               <p n="3">3 In that there were but three in the corrupt ſociety no more nor leſſe then in the true Church, it much conſirmes the truth of the doctrine that in the true Church, which theſe did counterfeit, there were onley threefold adminiſtrations in the Church then in uſe at Coriuth.</p>
+               <pb n="26" facs="tcp:116690:18"/>
+               <p n="4">4 It ſhews that the corrupt teachers did retaine the ſame form of government in their Ghurch, as the Apoſtles had ſet up in the true: for otherwiſe they hed not been able to draw men away ſo eaſily from the truth.</p>
+               <p n="5">5 <hi>Paul</hi> ſaith, that he transferred the things he ſpake of the falſe teachers to the true, who were only three, <hi>Paul, Apollo, Cephas:</hi> it is like if they differed in the outward form, the A<g ref="char:EOLhyphen"/>poſtle would have reproved it in them. 1 Cor. 1.12. com<g ref="char:EOLhyphen"/>pared with 1 Cor. 4.6. 2 Cor. 11.13. he calls them falſe Apoſtles. Secondly, he calls them deceitfull workers: now in that what they did againſt the truth was done by deceit, it ſheweth that they did as much as poſſibly they could to coun<g ref="char:EOLhyphen"/>terfeit the truth, and the true way practiſed by the Apoſtles in the Churches.</p>
+               <p>A ſhadow of theſe things are alſo ſet out on the Moſaicall ſervice: <hi>Aaron</hi> and his ſons ſignifie Chriſt and his two diſci<g ref="char:EOLhyphen"/>ples, or rather in the Prieſts and the Levites which were added to them as helpers in the ſame work. Firſt, the one was to help kill, the other to help waſh, and then then the Prieſt offered up the ſacrifice; ſo the Apoſtle deſired to offer up the— a chaſte Virgine to Jeſus Chriſt.</p>
+               <p>Ezek. 47.3. the Prophet prophetically ſhewes what was to be after the Goſpell-inſtitution took place, ſignified in the waters run out of the temple.</p>
+               <p n="1">1 The Lord meaſures the waters, and brings him through thrice, which ſignified as he was a Prophet, and did ſignifie publick miniſtery to be under the Goſpell, that there was, to be a three-fold adminiſtration of the Goſpell: the firſt is but to his Anckles, the beginnings of Chriſt; the next higher, the next higher then that, and theſe are not in the ſame place, but one thouſand reeds from the other; which ſhews that this miniſtery is not to be executed by one, nor preached at once to the ſame people.</p>
+               <p n="2">2 This directs us in ordaining miniſters; they are to pro<g ref="char:EOLhyphen"/>ceed by degrees, firſt preaching without for tryall, then ad<g ref="char:EOLhyphen"/>mitted within to the Doctors miniſtry, then the Paſtors, and laſtly the Evangeliſts; this way <hi>Timotheus</hi> proceeded in the miniſtry.</p>
+               <pb n="27" facs="tcp:116690:18"/>
+               <p>Now that we may more clearly ſee that it was the Teach<g ref="char:EOLhyphen"/>ers Office to teach Babes, <hi>Rom.</hi> 2.20. and art, ſaith the Apoſtle there <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, a Teacher of Babes, which ſhewes, who are Teachers, Congregation, and what is to be taught in that Congregation, they being to be taught according to their capacitie.</p>
+               <p n="1">1. The Scriptures clearly ſhew what the Babe is, and who, and when to be admitted to Church-ſocietie.</p>
+               <p n="2">2. The Scriptures ſhew abundantly concerning that eſtate, and God hath therein provided abundantly for it.</p>
+               <p n="1">1. The Scriptures ſhew who the Babe is, <hi>John</hi> 3.3.</p>
+               <p n="2">2. Of what he is to be borne and where, <hi>verſe</hi> 5.</p>
+               <p n="3">3. The neceſſitie of this new Birth, without which a man cannot enter into the Kingdom of Heaven.</p>
+               <p n="4">4. What is required of Babes, 1 <hi>Peter</hi> 2.1. to lay aſide ma<g ref="char:EOLhyphen"/>lice, hypocriſie, evil-ſpeaking, and to deſire the ſincere milke of the Word that we may grow thereby.</p>
+               <p n="5">5. The Doctrine is ſet down, <hi>Hebr.</hi> 6.1. to be laying the foundation of repentance from dead Workes faith towards God, the Reſurrection of the dead.</p>
+               <p>Shall God have Angels, heavenly Spirits, to attend the leaſt of Saints, and ſhall he not allow many a Church-miniſter by whom her portion in the Word may be divided rightly to them?</p>
+               <p n="2">2. The Euangeliſts Office is diſtinguiſht from the Teachers by the Apoſtle in the 1 <hi>Cor.</hi> 1.17. where the Apoſtle tels us that he was not ſent <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, to baptize, which was the worke and the Doctrine of the Doctour, as muſt clearly ap<g ref="char:EOLhyphen"/>peares, <hi>Hebr.</hi> 6.1. but <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, which was to do the worke of an Euangeliſt, as cocerning a man called to a di<g ref="char:EOLhyphen"/>ſtinct worke from that of Baptizing, which if ſo ſpoken of in the perſon of the Apoſtle, who had an extraordinary cal<g ref="char:EOLhyphen"/>ling, to all; How then of thoſe that have but an ordinary call, to one? And the words of <hi>Christ</hi> in <hi>Matthew</hi> to his Apoſtles, ſhew that Baptizing is joyned to the firſt worke of the Miniſterie following the making of Diſciples, now if thoſe God hath joyned together are not to be ſeparated by man, How ſhall we dare to feparate them, and as it were be<g ref="char:EOLhyphen"/>ſtow them on others.</p>
+               <pb n="28" facs="tcp:116690:19"/>
+               <p n="2">2. The Apoſtle implieth, in ſaying he was not ſent to bap<g ref="char:EOLhyphen"/>tize, that ſome are ſent to baptize, and that men not ſent are not to baptize, it being a part of the publique miniſterial Dutie.</p>
+               <p n="3">3. He ſhewes that they differ in the call to what they are to do, and that they have not baptized in commiſſion equally, and ſo conſequently for other of the Goſpel Adminiſtrations, that that is proper to one is not to be done by another.</p>
+               <p n="4">4. He was ſent to euangelize, which ſhewes that the Apo<g ref="char:EOLhyphen"/>ſtle did prove his calling to do what he did do.</p>
+               <p>Object. <hi>What is that to us? the Apostle was an extraordinary perſon.</hi>
+               </p>
+               <p>
+                  <hi>Resp.</hi> We are to conſider him as in his ordinary and extra-ordinary capacitie; in his extraordinary as a Prophet, and then he ſaith: that on him lieth the care of all the Churches; but if in his ordinary capacitie, then we conſider him as one uſing the Euangeliſts Office, to performe the which he took helpers with him, for the worke of the Miniſterie joyning himſelfe to them,</p>
+               <p>It is granted indeed that he did take on him the whole worke of the Miniſterie.</p>
+               <p n="1">1. Being extraordinarily called.</p>
+               <p n="2">2. Extraordinarily gifted.</p>
+               <p n="3">3. Others being at that time not to be had to ſupply it for him; but in this caſe he is no preſident for us to do the like, eſpecially ſeeing he was ſent to do the Euangeliſts Office, though in the abſence of other, or in the firſt laying the foun<g ref="char:EOLhyphen"/>dation of the Church, he may begin the workes, as in <hi>Corinth,</hi> he is ſent to euangelize.</p>
+               <p n="1">1. It being next in place to his extraordinary Offices.</p>
+               <p n="2">2. As being more fully inſtructed to that Dutie than any other.</p>
+               <p n="3">3. The Euangeliſts place requiring greateſt abilities in him that doth adminiſter the ſame both in regard of the Miniſterie it ſelfe and thoſe to whom it is to be miniſtered unto.</p>
+               <p n="3">3. The Euangeliſts Office is of the moſt ſublime admini<g ref="char:EOLhyphen"/>ſtration, it diſpencing the higheſt things of God in its Mini<g ref="char:EOLhyphen"/>ſterie, that are communicated to the Saints by ordinary means in this World.</p>
+               <pb n="29" facs="tcp:116690:19"/>
+               <p n="1">1. <hi>Christ</hi> teaching <hi>Nicodemus</hi> the Doctrine of Repentance and New Birth, cals theſe things <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, earthly things, things taught to men of the World.</p>
+               <p n="2">2. He cals the more ſpiritual part of Doctrine to be mini<g ref="char:EOLhyphen"/>ſtred <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, heavenly things, which ſheweth that there is a wide difference between the ſubject, matter, or way of diſpenſing the Doctrines pertaining to theſe two Adminiſtra<g ref="char:EOLhyphen"/>tions.</p>
+               <p n="3">3. To this agreeth that of the Apoſtle, <hi>Rom.</hi> 10.15. How beautifull are the feet of thoſe that euangelize good things and that euangelize peace, which ſhews that the ſubject, matter of the Euangeliſts Miniſterie, to thoſe under his charge, is gene<g ref="char:EOLhyphen"/>rally contained under thoſe two Heads of peace and good things, holding out the glorie followes the revelation of <hi>Jeſus Christ</hi> to the Soul, and the good that belongs unto him; yea, this requires the greateſt experience, the moſt heavenly ſenſe, and neareſt enjoyment of communion with God; for he muſt come firſt to know theſe things in himſelfe before he can teach them to others.</p>
+               <p n="4">4. The Euangeliſts Office is the chief in the worke of the Miniſterie, as appeares in that after <hi>Timothie</hi> had made uſe of the publique Miniſterie, <hi>Paul</hi> in his 2 <hi>Tim</hi> 4 5, bids <hi>Timothie</hi> do the worke of an Euangeliſt, and make full proof in the Miniſterie.</p>
+               <p n="1">1. Signifying that in other adminiſtrations, there is not a perfect worke of the Miniſterie.</p>
+               <p n="2">2. That the Euangeliſts Office is that that perfects the Mi<g ref="char:EOLhyphen"/>niſterie, both in reſpect of the Miniſter and People.</p>
+               <p>Not that the Euangeliſts Office is a full Miniſterie without the other, or the other without that, but that the Miniſterie ends in this and tends thereunto.</p>
+               <p>Again a Congregation under the Miniſterie of a Doctour called out from the World and united to <hi>Christ,</hi> having the adminiſtration of Gods Ordinance among them, are a Church, though in its infacie and childhood lying under imperfecti<g ref="char:EOLhyphen"/>ons.</p>
+               <p n="1">1. As not perfected in themſelves.</p>
+               <p n="2">2. Not in their Miniſterie.</p>
+               <pb n="30" facs="tcp:116690:20"/>
+               <p n="3">3. Not in their ſocietie, the ſtrong being commanded to bear with the weak.</p>
+               <p n="5">5. The Apoſtle proves 6. <hi>Hebr.</hi> 1. both that the Euangeliſts Office is the higheſt and a diſtinct Office from the Doctours; where he ſheweth, that under that adminiſtration the Do<g ref="char:EOLhyphen"/>ctrine of Repentance fromidead Workes, is to be left, and of the beginnings of <hi>Christ</hi> under this adminiſtration; and in ſaying Let us go to perfection, he ſheweth that under the for<g ref="char:EOLhyphen"/>mer adminiſtration theſe Doctrines which he was now about to teach them, had not been taught.</p>
+               <p n="1">1. If their Congregations were according to the Papal congregational wayes, and not divided, there were no leaving the firſt Principles, becauſe daily ſome being to be added to the Church, and in infancie, would then be left to periſh for the lacke of meanes, of meanes of grace.</p>
+               <p>And here fitly may I ſpeak a word of this lack of this di<g ref="char:EOLhyphen"/>viding the Miniſterie to the worke, How it is ſavoured by godly men in the Land.</p>
+               <p n="1">1. A man preaching that Doctrine is preparatory to fit for the Church, is not ſo acceptable to men called and ſanctified, and this is cried out as a Legal Miniſterie; others they preach the Go<g ref="char:EOLhyphen"/>ſpel grace to men in a natural eſtate, and do apply it in a gene<g ref="char:EOLhyphen"/>ral way; they are hardened by it, and theſe are called Antino<g ref="char:EOLhyphen"/>miſts, though not approving the error; but how to remedy this that is not apprehended, nor indeed can it be but by dividing People, and then dividing the Miniſterie, before which it is nothing but confuſion in all that we do.</p>
+               <p>Object. <hi>It is very ſtrange that men in the Euangelical Mini<g ref="char:EOLhyphen"/>ſterie must not preach the Doctrine of repentance, but leave that. Must not repentance be preached to the higher and the lower con<g ref="char:EOLhyphen"/>gregations?</hi>
+               </p>
+               <p>
+                  <hi>Resp.</hi> The Apoſtles Anſwer is not ſutable for any eſtate, but that of euangelized Chriſtians, which live under the higheſt diſpenſations of Goſpel mercie, as appeares <hi>verſe</hi> 4. <hi>chap.</hi> 6. where he ſheweth what theſe are that are thus to be lead to perfection, they muſt be men illightened, men that have taſted the heavenly gift, and are made partakers of the holy Ghoſt and have taſted the good Word of God, and the
+<pb n="31" facs="tcp:116690:20"/>powers of the World to come; if theſe fall away there is no preaching repentance to them, it is impoſſible to renew them again thereby, and on this ground the Doctrine preach<g ref="char:EOLhyphen"/>ed in the firſt congregation is left in the laſt.</p>
+               <p n="1">1. Hence ſee what degrees of common gifts is required of men before they be admitted to be of this fellowſhip.</p>
+               <p n="2">2. See to what perfection the Saints were brought who lived under this government; it is not the governments that are erected by men can have that in it, nor that from God which he communicates to his own Church.</p>
+               <p n="3">3. It ſheweth that there may be hypocrites, men that fall away in the chiefeſt Societies.</p>
+               <p n="4">4. See the ground of this Goſpel diſpenſation.</p>
+               <p n="1">1. It is to carry men onwards to perfection, What a lack do all the Saints of God lack of this helpe from the Miniſterie here and in all the World?</p>
+               <p n="2">2. How are the Saints gifts left to wither in them by rea<g ref="char:EOLhyphen"/>ſon that meanes which ſhould ſtir up their affections, and en<g ref="char:EOLhyphen"/>large their hearts, is wanting to them; they are onely ſhut up to leſſer and lower things, below that meaſure of manifeſta<g ref="char:EOLhyphen"/>tion the Spirit hath given to them to apprehend God in and by; as the Jewes were under Pedagogues, ſo theſe are ſtraitned in the preſent Miniſterie.</p>
+               <p n="3">3. Thoſe that fail under this diſpenſation cannot be reſto<g ref="char:EOLhyphen"/>red, and therefore no need of the Doctrine of Repentance, they being as the Salt which hath loſt its ſavour and cannot be ſeaſoned.</p>
+               <p>I know this Doctrine will be mightily diſtaſted of us Mini<g ref="char:EOLhyphen"/>ſters, we having deſires naturally in us, as we have heard to be in the Apoſtles, every one deſiring to be chief, and few con<g ref="char:EOLhyphen"/>tent to deny himſelfe, ſo as to ſerve with others in the Go<g ref="char:EOLhyphen"/>ſpel.</p>
+               <p n="1">1. Brethren, let us conſider, Do we <hi>Christs</hi> worke or do we our own? if <hi>Christs,</hi> let us take a care and do it as he will have it done.</p>
+               <p n="2">2. As it is ſaid of <hi>Christ</hi> when he waſht his Diſciples feet, he ſaid, he did this for example; ſo <hi>Christs</hi> Miniſterie, being at firſt but preparatory, ſheweth us that he was content to do
+<pb n="32" facs="tcp:116690:21"/>any thing for his Church, and ſhews how we ſhould follow his example herein, and he preſſeth <hi>Peter,</hi> yet he loved him, he ſhould feed his lambs as well as his ſheep.</p>
+               <p n="3">3 Conſider our parts, they are not ſufficient for the diſ<g ref="char:EOLhyphen"/>pencing of the loweſt adminiſtration; for ſaith the Apoſtle, we are the ſavour of life to life in thoſe that are ſaved, and of death to death in thoſe that periſh, and who is ſufficient for theſe things? here he ſaith, we joyning as fellow workers; in their other part of work with himſelf and for all or any, he implyeth none is worthy, no not man nor Angel; the loweſt place will take up all thy gifts, knowledge wiſ<g ref="char:EOLhyphen"/>dom, love, mercy, heavenly mindedneſſe, and finde thy heart much wanting to God in the execution of it both to thy ſelf, this miniſtry, God and his flock.</p>
+               <p n="4">4 We had rather teach in a confuſed way to the multi<g ref="char:EOLhyphen"/>tude, in an unprofitable way, then in Gods way to doe good among them; our very naturall oppoſition to this worke and way proves the divineneſſe and excellency of it.</p>
+               <p n="5">5 God ſaith, 1 Tim. 3.14. if a man have obtained the office of a Deacon, he hath obtained a good degree in the houſe of God, and <hi>David</hi> he eſteems highly of a door keepers place in the houſe of God.</p>
+               <p n="6">6 If God hath gifted us for the more eminent places, he will in his time call us thereunto; before which it is not good for us to ſeek any or exerciſe any.</p>
+               <p n="1">1 By this means men in the miniſtry, that is without the Church miniſtry, will come to have their gifts known and parts exerciſed.</p>
+               <p n="2">2 The Church miniſtry to be ſound and incorrupt, that the Chuch come not to be corrup by falſe teachers.</p>
+               <p n="3">3 Mens gifts for teaching highly improved.</p>
+               <p n="4">4 Mens abilities to the uttermoſt manifeſted.</p>
+               <p>
+                  <hi>Apl.</hi> Let us take heed of that of James 4.5. the ſpirit that dwelleth in us luſteth to envy; marke your own ſpirit how it is with God when God requires thee to part with any thing for the Goſpell, how apt it is to ſwell againſt it, and argue againſt it, denie it, condemn it, and alſo ſpeake hard<g ref="char:EOLhyphen"/>ly of it; as you know the Scribes and Phariſes did to <hi>Paul</hi>
+                  <pb n="33" facs="tcp:116690:21"/>concerning the way of God. I can the more freely ſpeake of this, becauſe mine own heart abundanly abounds with theſe dayly in me, being indeed a fruit more bitter then death.</p>
+               <p n="2">2 <hi>Cor.</hi> 1.5. <hi>We have made our ſelves your ſervants for Chriſts ſake;</hi> remember this, and we cannot refuſe any place we ſhall be imployed in the Church at all, unleſſe publik; we ſay ſo Complementally onely to God and the Church.</p>
+               <p>Again hath not Chriſt ſaid, <hi>he that will be greateſt let him be your ſervant?</hi> yea and did not the Evangeliſt in the Church, lay the foundation of the Church, in which he ſerved to the reſt of the miniſtry, preparing for them in this, as they prepared for him after: the greateſt office is for ſervice in the Church, in which to place any is the worke of the Lord Je<g ref="char:EOLhyphen"/>ſus Chriſt, who tryeth the ſpirits, and knoweth the gifts of all better then they that have them, and from whom they have them.</p>
+               <p>The laſt office we are to ſpeake of, is the Paſtors diſtin<g ref="char:EOLhyphen"/>guiſht in the Goſpell.</p>
+               <p n="1">1 His miniſtry is contained in thoſe parts of Scripture in which the Saints are ſtirred up to duty.</p>
+               <p n="2">2 In thoſe that invite to perfection.</p>
+               <p n="3">3 In thoſe that exerciſe the Saints Iudgment in the know<g ref="char:EOLhyphen"/>ledge of the word and the work of righteouſneſſe; hence is he called the exhorter, and doctrine exhortation: Noting unto us what Judgement, wiſdome, experience and Under<g ref="char:EOLhyphen"/>ſtanding is required to be in the man that officiats this part of miniſtry in the Church.</p>
+               <p>
+                  <hi>Heb.</hi> 5.12. All their Doctrine is ſpoken of together diſtinctly; 1 milke for babes. 2. <hi>Ver.</hi> 13. the skilfulneſſe in the word of Righteouſneſſe was for the young man, in which he differs from the babe; and the Apoſtle ſhews it, that he that uſeth milk is unskilfull in the word of Righteouſneſſe; this is for the Paſtor. 3. <hi>Ver.</hi> 14. the Apoſtle ſaith, concerning the growne Chriſtians, he ſhould have ſtrong meat.</p>
+               <p>Now I come to ſhew how all theſe Miniſters are but one compleat miniſtry in the Church of God.</p>
+               <p n="1">1 They preach the ſame Goſpell, doing the ſame work.</p>
+               <pb n="34" facs="tcp:116690:22"/>
+               <p n="2">2 Its the ſame faith in the beleever, as a child, and a ſtrong-man, onely it is to be perfected in him by degrees, according to that way God hath ordained in his word there<g ref="char:EOLhyphen"/>fore.</p>
+               <p n="3">3 They are all for the ſame end, which is for edification of the whole body.</p>
+               <p n="4">4 They reſpect the ſame perſons only, conſiſting in govern<g ref="char:EOLhyphen"/>ment, Liberty, peace, and purity. <hi>Heb.</hi> 13.17. <hi>ſubmit your ſelves to your leaders;</hi> that is meant of the miniſtring officers mentioned before; and not governing Elders, as ap<g ref="char:EOLhyphen"/>pears from <hi>verſe.</hi> 7. which words will hardly be applyed rightly to the Epiſcopall, Presbyterian, or Independent way, they having but one Miniſter in a Church as they call it; here are many, and in their relation ſo they are ſaid to be joyned to the flock, as no Paſtor can be more neerly joyned.</p>
+               <p n="1">1 They watch for their ſouls.</p>
+               <p n="2">2 They muſt give an account for them.</p>
+               <p>Now I ſuppoſe under theſe two words are comprehended the whole of the miniſterial duty, together with that in <hi>ver.</hi> 7. where it is ſaid that they have ſpoken to them the word of God: here is both miniſtry and government, but no govern<g ref="char:EOLhyphen"/>ment is here allowed to any other, but thoſe that miniſted, nor ſubjection required of the Church to any other; which proves that the Church miniſtery, was not a ſingle miniſtry, nor were they governed by an externall power.</p>
+               <p>Now where any of theſe are wanting in a Church.</p>
+               <p n="1">1 There is a deficiency in officers.</p>
+               <p n="2">2 Thence a deficiency in the office.</p>
+               <p n="3">3 Thence a deficiency in the end for which this office was ordained in the Church, which is the edifying of the Church, and conſtituting of it.</p>
+               <p n="4">4 A deficiency in the Church it ſelf.</p>
+               <p n="1">1 Where the Church miniſtry and ordinances are exer<g ref="char:EOLhyphen"/>ciſed, there cannot properly be ſaid to be a Church viſible; nor can I conceive but that as yet the Church remaines hid in reſpect of outward government and order to the world; and hath not put on its ornaments as yet.</p>
+               <p n="2">2 I commend it to all my brethren the Miniſters to judge
+<pb n="35" facs="tcp:116690:22"/>whether our miniſtry, as now exerciſed, be any other then that which is without the Church, and prepares onely for a Church miniſtry.</p>
+               <p n="3">3 I doe not ſay but a Church conſtitution may be without any other miniſtry then the teachers; until that men are be<g ref="char:EOLhyphen"/>come capable of the other parts of miniſtry, when that is come to paſſe, the Church ought not to continue in its defi<g ref="char:EOLhyphen"/>ciency; but by all men to have Gods ordinances exalted a<g ref="char:EOLhyphen"/>mong them.</p>
+               <p>Again not only people, Miniſters, and ordinary miniſtry, in ſome kinde reſembling the Trinity, and are three, and yet but one; but we ſhall ſee the whole Scripture is divided a<g ref="char:EOLhyphen"/>mong five; two for the giving, the other ordinary three, for the exerciſe of the word. 2 <hi>Tim</hi> 3.16, 17.</p>
+               <p n="1">1 All Scripture is given by divine inſpiration; here the Apoſtles, and Prophets worke is ſet forth.</p>
+               <p n="2">2 The uſe of it is for the Doctrine, which is the Doctors part for a babe in Chriſt.</p>
+               <p n="3">3 For inſtruction to righteouſneſſe, this is proper to the miniſtry of the Paſtor, in the Congregation of the young<g ref="char:EOLhyphen"/>men.</p>
+               <p n="4">4 That the man of God may be perfect, this is proper to the Evangeliſts office.</p>
+               <p n="1">1 That the whole Scriptures are imployed by this miniſtry.</p>
+               <p n="2">2 That by theſe they are rightly exerciſed for Edification.</p>
+               <p n="3">3 That there is nothing wanting in the Scripture to ex<g ref="char:EOLhyphen"/>erciſe them, is a moſt ſtrong and undenyable ground, that this is the Scripture miniſtry; and that miniſtry that hath more officers or leſſe then this, is not the true Scripture, or Church miniſtry; and this will more clearly appear if you conſider,</p>
+               <p n="1">1 That this miniſtry is bounded and directed in the Goſ<g ref="char:EOLhyphen"/>pell, which other miniſtry is not, by and in the word which proves it Evangelicall.</p>
+               <p n="1">1 The Doctrine for the teacher, which is the ground worke.</p>
+               <p n="2">2 Exhortation to the Paſtor which ſucceeds rightly Do<g ref="char:EOLhyphen"/>trine.</p>
+               <pb n="36" facs="tcp:116690:23"/>
+               <p n="3">3. Evangelicall peace to the evangelized chriſtian man.</p>
+               <p n="2">2. Their miniſtry is bounded in reſpect of the people to whom it is to be miniſtred.</p>
+               <p n="1">1. Doctrine is not for all, but babes onely 2. Exhortation for young men onely. And 3. Evangelicall miniſtry for the perfect men onely.</p>
+               <p n="3">3. Their miniſtry is bounded for the place of it, which is the Church of God; theſe offices are not to be at all exer<g ref="char:EOLhyphen"/>ciſed but in the Church: The Apoſtle in 1 <hi>Cor.</hi> 4.1. ſaith, <hi>Let a man account of us as of the miniſters of Chriſt, and ſtewards of the myſteryes of God.</hi> Note here the combination implyed in the word <hi>us,</hi> us miniſters, us ſtewards.</p>
+               <p n="1">1. Shewing, in the miniſtry is to be more then one.</p>
+               <p n="2">2. That as they are miniſters, ſo they are ſtewards alſo.</p>
+               <p n="3">3. Of what they are miniſters they are alſo ſtewards: the doctor is miniſter and ſteward of the doctrinall part of Scri<g ref="char:EOLhyphen"/>ture, the Evangeliſt of the evangelicall part.</p>
+               <p>From hence I deſire it may be conſcienciouſly conſidered of; 1. Whether any Sacraments be to be adminiſtred untill we are in a Church-way.</p>
+               <p n="2">2. To whoſe miniſtry and ſtewardſhip they do belong.</p>
+               <p n="3">3. Whether the doctrine of baptiſme belonging to the do<g ref="char:EOLhyphen"/>ctor, baptiſm belong not to him alone, of which he is both miniſter and ſteward.</p>
+               <p n="4">4. The miniſtry of the ſacrament of the Lords Supper, to whoſe ſtewardſhip that pertains in the Church.</p>
+               <p n="5">5. Whether any of theſe may be exerciſed ordinarily in the Church by any but thoſe to whom they are of God recom<g ref="char:EOLhyphen"/>mended in particular.</p>
+               <p n="6">6. Whether the Apoſtle did not aim at this, in ſaying, the Lord hath not ſent me to baptize, <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, but to e<g ref="char:EOLhyphen"/>vangelize. The disjunctive ſeems to divide the work to pro<g ref="char:EOLhyphen"/>per perſons according to their call.</p>
+               <p>This ſeems to be the way of God in the Churches, becauſe the moſt perfect way, and moſt like God.</p>
+               <p n="1">1. It hath unity anſwering in ſome kinde to Epiſcopacy.</p>
+               <p n="2">2. Joynt fellowſhip in Government by Elderſhip with Presbytery.</p>
+               <pb n="37" facs="tcp:116690:23"/>
+               <p n="3">3. Community in Priviledges with Independency. With<g ref="char:EOLhyphen"/>out all queſtion theſe all have ſomewhat of the way of God in it; Gods way takes up all.</p>
+               <p n="1">1. <hi>Epiſcopacy</hi> could not have deceived the world elſe in its firſt inſtitution, ſucceeding the primitive times, and the hiding of the Church.</p>
+               <p n="2">2. <hi>Presbytery</hi> could not plead ſo ſtrongly for a combina<g ref="char:EOLhyphen"/>tion in Government from the word elſe.</p>
+               <p n="3">3. <hi>Independency</hi> could not elſe refuſe an external power of command to reſide in any out of the Church.</p>
+               <p n="1">1 For <hi>Epiſcopacy;</hi> How it is likely it aroſe out of the Churches firſt inſtitution.</p>
+               <p n="1">1. The miniſtry of the Goſpel being one, and ending in the evangeliſt, the other two miniſters miniſtring to him, whe<g ref="char:EOLhyphen"/>ther hence Epiſcopacy took not an occaſion to viſit over ma<g ref="char:EOLhyphen"/>ſcores of divided congregations.</p>
+               <p n="2">2. Whether the Lord writing to the Angel of the Church of <hi>Epheſus,</hi> wrote not to the Evangeliſt as firſt in order, and hence that Biſhops pleaded their ground for Govern<g ref="char:EOLhyphen"/>ment.</p>
+               <p n="3">3. Whether that corrupt and exorbitant way of lording it over many congregations may not be a light to us? that ſuc<g ref="char:EOLhyphen"/>ceeding the Primitive times, to ſhew us that in the true Church there was a conjunction of miniſters in the Church-miniſtry: more then one ſerved together therein.</p>
+               <p n="4">4. This appears in that Epiſcopacy did counterfeit the way of the true churches, but in a corrupted way, groſly.</p>
+               <p n="1">1. Setting up their Biſhopricks in Cities, as <hi>Paul</hi> the churches, which I ſuppoſe is neceſſary to be done now.</p>
+               <p n="2">2. In theſe places are a combination of miniſters; but far more then they finde in the text, and for a quite contrary end.</p>
+               <p n="3">3. Whether in union of churches, the mother church re<g ref="char:EOLhyphen"/>preſent not the Evangeliſts meeting; the chappels the meet<g ref="char:EOLhyphen"/>ing places of the Paſtor and Teacher; and then that the Sa<g ref="char:EOLhyphen"/>crament of the Lords Supper was to be adminiſtred onely in the mother-church. Whether this hath not in it a diſcove<g ref="char:EOLhyphen"/>ry
+<pb n="38" facs="tcp:116690:24"/>of the evangelicall practice, I leave to all the Saints to judge.</p>
+               <p>I ſhall grant to Biſhops;</p>
+               <p n="1">1. That there are by the Goſpel government more then one aſſembly or congregation do belong unto one compleat church.</p>
+               <p n="2">2. One was to be the mother-church or chief aſſembly, in which ſome things were to be done that were not to be done in the other meeting-places.</p>
+               <p n="3">3. That the members of the other two congregations were to come there and do them.</p>
+               <p n="4">4. That the Evangeliſt had a priority in the church before all other officers, as Paſtors, Teachers, Elders, Deacons.</p>
+               <p n="5">5. That cities were the uſuall places in which the church-miniſtry and ordinances uſually were erected.</p>
+            </div>
+            <div type="part">
+               <head>For the ground of <hi>Prebytery</hi>'s riſe and growth:</head>
+               <p n="1">1. It is cleer, the miniſtry is in the Goſpel one onely miniſtry.</p>
+               <p n="2">2. All had their inſtitution from Jeſus Chriſt.</p>
+               <p n="3">3. Government is common to the whole miniſtry and el<g ref="char:EOLhyphen"/>ders in the Scriptures.</p>
+               <p n="4">4. All are comprehended under the ſame names in the Scriptures.</p>
+               <p n="5">5. All are to teach the ſame Goſpel.</p>
+               <p n="6">6. God hath in Scripture condemned lordlike authority in any, and that the greateſt was to be miniſter to the reſt: by which and many other things, whether or no that the miniſters came not to ſee the unjuſt domineering power of <hi>Epiſcopacy,</hi> and how that the Scriptures held out no ſuch authority to be left of Chriſt in the church.</p>
+               <p n="1">1. Whether this occaſioned not the miniſters to break off the yoak of that bondage, and every one dividedly in his own place, without reference to other, as condemning epiſcopall Juriſdiction for tyrannical, and therefore ſaw a neceſſity of breaking off from that union that ſhould not be. And now I ſuppoſe they break alſo from that union which ſhould be.</p>
+               <p n="2">2. They finding the many inconveniences by ſtanding
+<pb n="39" facs="tcp:116690:24"/>ſingly without advice and mutual help, together with the Scriptures which ſpeak of the Presbyters as of many perſons, they were neceſſitated to joyn in a way of Community for Government again.</p>
+               <p n="3">3. Now from the joyning together of Miniſters and Elders in the Primitive Church of one Church onely, I ſuppoſe aroſe the Claſſical or National combination of Miniſters in the Presbytery.</p>
+               <p n="4">4. All theſe have ſomewhat of truth in them; which, when God ſhall reveal it fully, will help to ſet up the Church; which, until then, will but keep it down.</p>
+            </div>
+            <div type="part">
+               <head>I agree with Presbytery,</head>
+               <p n="1">1. That in things which generally concern the Church, nothing ought to be done without conſultation firſt had with the Miniſtery and the Presbytery of the Church.</p>
+               <p n="2">2. That there were Meetings of the Presbytery for the de<g ref="char:EOLhyphen"/>bate of doubtful things.</p>
+               <p n="3">3. That ſeveral Miniſters are joyned together for this work.</p>
+               <p n="4">4. That one Miniſter ought not to Lord it over another in the Church, they being co-ordinate in the Miniſtery.</p>
+               <p n="5">5. That every Miniſter in the Church is <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, a Biſhop over his flock, and nothing to be done therein without his be<g ref="char:EOLhyphen"/>ing firſt acquainted with it by the other Miniſters of the ſame conſociation.</p>
+               <p n="6">6. That helps in Government are to be uſed in the Church, as that of ruling Elders, Deacons, Widows.</p>
+               <p n="7">7. That the ruling Elders are to be choſen by the Church, and to be joyned to the miniſtring Elders, for the removing of ſcandals and ſcandalous perſons out of the Church; the Church being not poſſibly all on every occaſion of meeting to be pre<g ref="char:EOLhyphen"/>ſent, nor in many things are they able to determine, and there<g ref="char:EOLhyphen"/>fore appoint choſen men hereunto, to do for them ſo as if done by themſelves.</p>
+               <p>And here I cannot but obſerve how all Ways deduce the ſtrength of their way from the Way of God; and in what it fails of that, it lieth naked to be wounded by the adverſaries.</p>
+               <p>Epiſcopacie pleaded unity of Miniſtery: but taking the
+<pb n="40" facs="tcp:116690:25"/>whole Authority to it ſelf, from thoſe who were to be joyned with it, proved its ſubverſion. It pleaded community of Churches: but when from three to three hundred, and from theſe, to thoſe which he was to have no relation to, did ſhew it to be an Antichriſtian power.</p>
+               <p n="2">2. Presbytery pleads a community or combination in the Church of Miniſtery, and ſo ſhakes Independency, which hath not any combination in Government of Miniſtery.</p>
+               <p n="3">3. Independency again ſhakes Presbytery in its combinati<g ref="char:EOLhyphen"/>on, it being a combination of men that are not ſet over the flock, nor feed it, and yet exerciſe authority over them.</p>
+               <p n="4">4. Hence ſee the Way of God is that which holds up and caſts down the ways of Worſhip or Government in the Church.</p>
+               <p>
+                  <hi>Applic.</hi> 1. Of what ſtrength will the Way of God be when it is in perfection revealed unto us, without mixture of humane inventions, to caſt down all other Ways of Worſhip?</p>
+               <p>
+                  <hi>Illustrat.</hi> As Chriſt coming into the Temple whipt out of the Temple the buyers and ſellers, and none durſt to ſtand againſt him; ſo will Truth be in power when its clearly re<g ref="char:EOLhyphen"/>vealed; men will not be able ſo to diſpute againſt it as now they do; there will not be that ground for Reaſon to object againſt it; the Word agrees with it, it will condemn every tongue ſhall ſpeak againſt it.</p>
+            </div>
+            <div type="part">
+               <head>For Independency,</head>
+               <p>I agree with it, that <hi>Corinth, Jeruſalem</hi> and <hi>Epheſus</hi> is ſaid to be but one Church, though it conſiſted of three ſeveral con<g ref="char:EOLhyphen"/>gregations.</p>
+               <p n="2">2. That this Church was ruled by Officers of its own, and not by any other Officers of another Church; but that all Officers and Offices ought to be compleat in her, by which all things ought to be done by her alone.</p>
+               <p n="3">3. I agree with it, that people ought to be congregated in a Church-fellowſhip from the world.</p>
+               <p>
+                  <hi>Applic.</hi> is, That I verily ſuppoſe that Independency comes neereſt the minde of Chriſt of any. Yet leſt I ſhould be thought to be engaged to them more then others, I ſhall next ſhew in what I diſagree.</p>
+               <pb n="41" facs="tcp:116690:25"/>
+               <p n="1">1 She hath not her full miniſtry.</p>
+               <p n="2">2 Not the right uſe of her miniſtry.</p>
+               <p n="3">3 Not the right way of making her members.</p>
+               <p n="4">4 Not the right way to increaſe the gifts of God in her members, as ordained of the Lord in the word.</p>
+               <p n="5">5 Not the conſultations ought to be had and held with the other Miniſters, to be had in, and to be of its own conſociati<g ref="char:EOLhyphen"/>on; of whom it may be ſaid, as <hi>Solomon</hi> ſaid of others, that a three-fold is not eaſily broken.</p>
+               <p>In the government of the Church, clearly appears accor<g ref="char:EOLhyphen"/>ding to the wiſdom of God, that all Government is compre<g ref="char:EOLhyphen"/>hended in it. <hi>Monarchy,</hi> in that there was one chief Paſtor. <hi>Ariſtocracy,</hi> in the conſociation of Miniſters and Elders. <hi>Democracy,</hi> in that many things which concerned the whole Church, were to be done by, and with conſent of the Church.</p>
+               <p n="1">1 Biſhops, they with the help of Elders, they together oppreſſe the people, depriving them of all power.</p>
+               <p n="2">2 The Biſhops they grew too great for the Elders, and op<g ref="char:EOLhyphen"/>preſſed them.</p>
+               <p n="3">3 The Pope he grew too great for the Biſhops: now it was all their worke, to adulterate the way of Chriſt in the Churches, onely to feed their own greatneſſe, and further their own vile ends. But the grand corruption of all was in that reſemblance of Monarchy ſet up in the Church againſt Chriſt, againſt his Law, to the caſting down of Chriſt and his wor<g ref="char:EOLhyphen"/>ſhip.</p>
+               <p>Now, in the revolution of the Churches eſtate, it comes a<g ref="char:EOLhyphen"/>gain by degrees to its reſtauration.</p>
+               <p n="1">1 The Biſhops they caſt off the Popes yoake.</p>
+               <p n="2">2 By the ſame argument Biſhops caſt off the Popes yoake, the Presbytery caſt off the Biſhops.</p>
+               <p n="3">3 The people with a miniſtry, joyn together againſt Preſ<g ref="char:EOLhyphen"/>bytery for Independency.</p>
+               <p n="4">4 In the end, when God ſhall reſtore the Church to its for<g ref="char:EOLhyphen"/>mer eſtate, all theſe ſeverall wayes of government ſhall be reeſtated in the Church again, without claſhing one with an<g ref="char:EOLhyphen"/>other, which now, as divided, are in ſome kinde uſed
+<pb n="42" facs="tcp:116690:26"/>as it were to the deſtruction one of another, yea of all; we are willing to have one alone without the other, and ſo ſtrive to deſtroy the way God hath conſtituted in his Church, making one form to ſerve all, when all are to be exerciſed joyntly in the houſe of God for the more excellent, perfect, and exact government of it, which by no means can be done by any of thoſe powers alone dividedly: which what wee doe in ſeeking one, or ſetting up one above another, or a<g ref="char:EOLhyphen"/>gainſt another, to the deſtruction one of other, is not eaſily apprehended; eſpecially if wee conſider, 1. That the prio<g ref="char:EOLhyphen"/>rity of the Evangeliſt was but in one Church-miniſtry, not ſuch as to have it to be as the Papacy or Epiſcopacy, over whole countreys and counties. 2. That the conſociation or combination of the Presbytery was not over a Nation to exalt it over all, but of the miniſtry joyned in fellowſhip for the edification of one onely Church, conſiſting of onely an Evangeliſt, Paſtor and Teacher ordinarily. 3. The Inde<g ref="char:EOLhyphen"/>pendency was not ſuch as was of one onely miniſter and members joyned to him, with helping governours, in whom onely all Church-power ſhould reſide; but was to be joyn<g ref="char:EOLhyphen"/>ed in a combination with other miniſters of the ſame church, who were to have their helpers added to them: for as <hi>Solomon</hi> ſaith, <hi>In the multitude of Counſellors there is ſafety.</hi>
+               </p>
+               <p n="1">1. The priority of the Evangeliſt is kept in its limits by the joyning of the Paſtor and Teacher with him.</p>
+               <p n="2">2. The power of the Presbytery is moderated by the El<g ref="char:EOLhyphen"/>ders, exceeding them in number.</p>
+               <p n="3">3. The whole Presbytery, if they are wanting to the church in things wherein peace and purity do conſiſt, are to be ſubject to the church, to give an accompt thereof unto it. <hi>Acts</hi> 11.2, 3. <hi>Peter</hi> having been with <hi>Cornelius</hi> a Gen<g ref="char:EOLhyphen"/>tile, was queſtioned by ſome of thoſe that were of the Church at Jeruſalem, for going in to the uncircumciſed, and eating with them: to which charge of the members <hi>Peter</hi> gives an accompt, rehearſing the matter from the beginning, and expounding it unto them. 1 <hi>Cor.</hi> 5.7. the Apoſtle writes to the whole church to purge out the old leaven. Now this was the work of all, not of ſome, as appears by the means
+<pb n="43" facs="tcp:116690:26"/>ordained hereunto, which was <hi>excommunication,</hi> not practi<g ref="char:EOLhyphen"/>ſed then as done by Epiſcopacy, in which the whole power of the Church was clean taken from them.</p>
+               <p n="4">4. Without all queſtion, the ſaying of Chriſt, <hi>Go and tell the Church,</hi> (who had no reſpect to the then Jewiſh Church, but the conſtitution of Chriſtian Church to be) doth imply, that in the Church did reſide authority and power to puniſh offenders with eccleſiaſticall cenſures, and without them it cannot be done; which was the gracious proviſion God was pleaſed to make for the Church and the members thereof. That this was not meant the Jewiſh Church, appears, becauſe there was but little good to be done by telling them of any thing, who had caſt out all of their congregations that did confeſſe the name of Jeſus Chriſt.</p>
+               <p n="2">2 He begins in the beginning of the chapter with the King<g ref="char:EOLhyphen"/>dome of heaven, which was the Goſpel-government, <hi>Matth.</hi> 19.1. and was the cauſe of what ſayings enſued concerning dealing with an offending brother.</p>
+               <p n="3">3. Chriſt, to clear up his meaning in theſe words to his di<g ref="char:EOLhyphen"/>ſciples underſtandings, fetcheth another parable taken from the likeneſſe of the Kingdome of heaven, which was the eſtate of the Church to be under Goſpel-government, <hi>ver.</hi> 23.</p>
+               <p>Object. <hi>Christ meant here the Church of the Jewes: there was no other, nor could the Diſciples underſtand of what he ſpake, if not of the Jews Church.</hi>
+               </p>
+               <p>
+                  <hi>Reſpon.</hi> They then underſtood nothing whatever he taught, for he onely taught the myſtery of the Kingdom.</p>
+               <p>Obj. <hi>How ſhould they understand it?</hi>
+               </p>
+               <p>
+                  <hi>Reſo.</hi> The holy Spirit tels us, that it was <hi>given</hi> to them <hi>to know the mysteryes of the kingdome;</hi> ſo that the myſteries and hidden things of the Goſpel and Government were in ſome meaſure revealed to them, though not as after the deſcending of the holy Spirit on them.</p>
+               <p>And here it will not be amiſſe to ſpeak a word more of this Scripture; which is, that Chriſt did herein at leaſt confirm the dependency of Church upon Church now, from the then dependency which was in the then Jewiſh adminiſtrations to which Chriſt alludes.</p>
+               <pb n="44" facs="tcp:116690:27"/>
+               <p n="1">1. The miniſtry of Chriſt was evangelicall. <hi>Mark</hi> 1.14, Chriſt is ſaid to preach the Goſpel of the kingdom.</p>
+               <p n="2">2 This being part of his miniſtry, proves that Chriſt had reſpect herein to the Goſpel adminiſtration.</p>
+               <p n="3">3 Chriſt intended this onely without mixture or relation to the other, <hi>Matth.</hi> 9.16. <hi>No man putteth a piece of new cloth to an old garment.</hi> Mark it well, there is not a piece to be put to it, for that which is to fill it up, will make the ren the worſe: ſee then what it is to patch old with new, or new with old; it is cleer Chriſt uſed it not in his miniſtry.</p>
+               <p>Obj. <hi>Matth.</hi> 13.52. <hi>Every wiſe Scribe bringeth forth of his treaſury new things and old, that is, Law and Goſpel.</hi>
+               </p>
+               <p>
+                  <hi>Reſp.</hi> It is true; but then he diſtinguiſheth them, in that they come to be cleerly diſcerned, as in the Parables of the <hi>tares</hi> and <hi>fiſh</hi> follow to be ſpoken of.</p>
+               <p>The laſt <hi>generall</hi> that wee now come to ſpeak of for fur<g ref="char:EOLhyphen"/>ther diſcovery of the exerciſe of theſe ſeverall adminiſtrati<g ref="char:EOLhyphen"/>ons in the church, may be (for that it is implyed in the Scri<g ref="char:EOLhyphen"/>pture) of church-meetings, though one intire church, yet uſu<g ref="char:EOLhyphen"/>ally not to be aſſembled in one place.</p>
+               <p n="1">1 <hi>Cor.</hi> 14.23. <hi>If therefore the whole Church meet together in one place.</hi> The conditionall expreſſion ſheweth, they uſually met not in one place: it would have been confuſed for all the ſeverall Miniſters to have taught their ſeverall doctrines at the ſame time in the ſame place; the Apoſtle doth adjudge it ſo, ſaying, One had a doctrine, another a Pſalm, which he ſaith ought not to be: And this was in their generall meetings.</p>
+               <p n="2">2. Their meeting together <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, was for thoſe things which were generally of common concernment to all the members, 1 <hi>Cor.</hi> 11.20. <hi>When ye meet together in the fame place, is this to eat the Lords Supper?</hi>
+               </p>
+               <p>Note, the doctrine which they were to be taught differing, and the Miniſters they were to meet in ſeverall places, for to a<g ref="char:EOLhyphen"/>void confuſion, and be a help to edification: But in the admi<g ref="char:EOLhyphen"/>niſtration of the Sacraments, in which every child had his in<g ref="char:EOLhyphen"/>tereſt, as wel as the man Chriſtian, in this all were to meet to<g ref="char:EOLhyphen"/>gether, feaſting on him as in a feaſt upon a Sacrifice.</p>
+               <pb n="45" facs="tcp:116690:27"/>
+               <p>This Scripture 1 <hi>Cor.</hi> 14.23. of the gathering of the whole church together, I ſuppoſe to be occaſioned for the tryall of the members gifts, to ſee whether thoſe under the teachers ad<g ref="char:EOLhyphen"/>miniſtration were fitted for to partake with the Paſtors charge, and thoſe under the Paſtor to be admitted to ſociety with the Evangeliſts congregation.</p>
+               <p n="1">1. Hence in this meeting the Apoſtle ſaith, <hi>All may propheſie, ver.</hi> 24 <hi>&amp;</hi> 31.</p>
+               <p n="2">2. This propheſie was to be according to the meaſure of faith, either as a child, or a man; according to the ſeverall de<g ref="char:EOLhyphen"/>grees of knowledge he had in him of the Goſpel, and of God, ſo was he to propeſie in this meeting.</p>
+               <p n="3">3. Nor do I think that this was ordinary with them to pro<g ref="char:EOLhyphen"/>pheſie, but on tryall of members: In this kinde 1 <hi>Cor.</hi> 12.29. <hi>Are all prophets? Are all teachers?</hi> which ſhews the office of teaching in ordinary meetings was proper work of ſome particular perſons. When none but the Paſtor or Teacher did teach onely, the reſt were onely to ſit ſtill and judge.</p>
+               <p n="1">1. Some there are that take theſe words <hi>[all] all may pro<g ref="char:EOLhyphen"/>pheſie,</hi> collectively for all the Prophets or Teachers, which can<g ref="char:EOLhyphen"/>not be; becauſe the Apoſtle ſaith, <hi>Two or three may ſpeake, the rest judge:</hi> now ſure the Church had not ſo many faithfull teachers pertaining to their church.</p>
+               <p n="2">2 Others underſtand it of ſome of their choyeſt Chriſtians only. 1 They cannot agree with the word all; for if ſome onely, then not all. 2 The holy Ghoſt ſaith, they may pro<g ref="char:EOLhyphen"/>pheſie according to the proportion of faith; which ſhews that it did belong to thoſe of the Children congregation, as well as thoſe of the men; and whereunto ſhould this ſerve if not for triall of gifts, and the bringing of the Chriſtian from company to company for his furtherance in knowledge and grace?</p>
+               <p n="3">3 By this tryall the Church came to know the proof of men, who among them were fitted to ſend forth for the pro<g ref="char:EOLhyphen"/>pagation of the Goſpel in other places.</p>
+               <p n="4">4 It is implyed, that the admitting of members to be the firſt ſociety, (and then doubtleſſe it was ſo in the other alſo) it was a publick worke of the Church, in which great care
+<pb n="46" facs="tcp:116690:28"/>is to be had; that neglected, proved the ill calamities and trouble of the Church; and ſo again for the caſting them forth.</p>
+               <p n="2">2 <hi>Gal.</hi> 4. The Apoſtles reproves the underhand dealings there uſed; which was as it is to be thought a practiſe of the officers in the Church, who brought in falſe brethren privily without publick tryall, and not at the Churches publick meetings againſt the courſe of the Church: <hi>Jude</hi> ſaith the like, <hi>That falſe brethren are crept in unawares, Jude</hi> 4.</p>
+               <p>Obj. <hi>How could the Church meet in one place?</hi>
+               </p>
+               <p>
+                  <hi>Reſ.</hi> 1 They had exceeding large roomes in Jeruſalem, as appeares in the multitude met in one place, <hi>Act.</hi> 21. in which three thouſand were converted at one ſermon.</p>
+               <p n="2">2 The word implyeth they did do it.</p>
+               <p n="3">3 They being to doe it, not to hear, but to receive the Sa<g ref="char:EOLhyphen"/>crament and the like, that may be done ſucceſſively, it may eaſily be granted.</p>
+               <p n="4">4 It may be the Church increaſing, they may increaſe the roome.</p>
+               <p n="5">5 As the Atheiſts of old queſtioned the Scriptures by que<g ref="char:EOLhyphen"/>ſtioning the poſſiblity of <hi>Noahs</hi> ark, carrying the creatures in it, and the proviſion for them: So now men queſtion the Scriptures, by queſtioning how theſe could come to meet all in one place, being ſo great a multitude as the Scripture affirms them to be.</p>
+               <p>In the <hi>Applycation,</hi> I came to ſhew that there is no Church, nor Church way that is according to God, but this of A<g ref="char:EOLhyphen"/>poſtles, Prophets, Evangeliſts, Paſtor, and teacher.</p>
+               <p n="1">1 Theſe muſt be to the conſtitution of a true Church, or it cannot be a true Church.</p>
+               <p n="2">2 In the lack of one of theſe, there can be no compleat and perfect Church-adminiſtration exerciſed.</p>
+               <p n="3">3 Theſe in combination only, need no other to be joyned to them for the ordering of Church affaires, as appeares, Chriſt having given the miniſtry above ſaid. <hi>Epheſ.</hi> 4.12, he tels us they are for the perfecting of the Saints, the worke of the miniſtry, and the edifying of the body.</p>
+               <p n="1">1 It is for the perfecting of the ſaints.</p>
+               <pb n="47" facs="tcp:116690:28"/>
+               <p n="1">1 Shew, The Saints are not to be perfected by any one of they muſt have all to perfect them; which ſhews how it it ſhould be the deſire of the Chriſtians to ſee this way of God ſet up among them, as the true and only means of their perfection.</p>
+               <p n="2">2 If theſe ſerve for the perfecting of the Saints, what need we any more, yea who ſhall add more?</p>
+               <p n="3">3 There is all that power and authority given to theſe that Chriſt hath given to his Church, for the Saints to have exer<g ref="char:EOLhyphen"/>ciſed in the Church among them.</p>
+               <p n="1">1 For removing ſcandalous things and perſons.</p>
+               <p n="2">2 For advice and counſel.</p>
+               <p n="3">3 For exhortation, reproof &amp;.</p>
+               <p n="2">2 It is for the work of the miniſtry.</p>
+               <p n="1">1 Theſe all only can do but the work of the miniſtry that is to be done in the Church: I ſpeak not here of that part of miniſtry exerciſed to thoſe without the Church.</p>
+               <p n="2">2 Without all theſe (as I have formerly ſhewed, they are and ought to be in the Church) the work of the miniſtry can<g ref="char:EOLhyphen"/>not be done according to Goſpel rules.</p>
+               <p n="3">3 There is no other worke to be done by the miniſtry, ei<g ref="char:EOLhyphen"/>ther in teaching or ruling, then what is to be done by theſe only.</p>
+               <p n="4">4 The Church is not, nor cannot be ſufficiently provided for without all theſe, but it muſt be imperfect, and muſt be ſtraightned in the worke of the miniſtry; which is the onely worke we ought to ſtrive to have wrought amongſt us.</p>
+               <p n="5">5 Ordination being a Presbyterial or miniſterial act, is in every right conſtituted Church, virtually as other ordinances of the Church are.</p>
+               <p n="6">6 Hence the Church hath all power in it ſelfe that is or can be for its good, communicated of Chriſt unto it, and needs not to go out of it ſelf to any other for help.</p>
+               <p n="1">1 <hi>Concluſion,</hi> Hence is this, that there is no other way to be found out more mighty to convince gaineſayers, to order Aſſem Ites, to build up the Saints, maintain unity and peace, to reſtore the humbled, to caſt out the profane, or to doe
+<pb n="48" facs="tcp:116690:29"/>whatſoever elſe is to be done miniſterially in or for the Church, then what theſe, and none but theſe are to doe.</p>
+               <p n="2">2 Nor hath God left to his Church any other way or means to doe it: and eſpeciall care is to be had what authori<g ref="char:EOLhyphen"/>ty is exerciſed, what way is erected in the Church of Chriſt over his people, that it prove not Antichriſtian, and turn not unto tyranny over the Saints. God complains, thoſe that ruled over his people made them to cry; and ſhews, Gods people can bear no yoake as Chriſts that is gentle, nor no yoake but Chriſts: the other yoake is an unequall yoake, they can never draw eaſie in it.</p>
+               <p n="3">3 The third thing this miniſtry is to doe, is to edifie the body; more then theſe three things remaines not to be done by the miniſtry for the church on earth.</p>
+               <p n="1">1 The Apoſtles and Prophets gave the Scriptures as that by which it may be edifyed.</p>
+               <p n="2">2 The Prophets forwarned her of her ſad times, and told her again of her glad times to come.</p>
+               <p n="3">3 The Doctor he drew the milke out of the word for the children.</p>
+               <p n="4">4 The Paſtor brought forth thence the young mans meat.</p>
+               <p n="5">5 The Evangeliſt he furniſh from thence the ſtrong mans table with ſtrong meat fit to feed him.</p>
+               <p>Now judge and tell me without which of theſe the church can be, and how ſufficiently God hath provided for his church and people in theſe.</p>
+               <p n="1">1 Who can preach without the Apoſtles?</p>
+               <p n="2">2 Who can comfort without the Prophets?</p>
+               <p n="3">3 How can the child live without milke?</p>
+               <p n="4">4 How ſhall the other chriſtians live without meat?</p>
+               <p>Obj. <hi>This were not proviſion ſufficient againſt Hereſies?</hi>
+               </p>
+               <p>
+                  <hi>Reſp.</hi> Let us take heed of queſtioning the Lords wiſdome in the order taken for the ſubſiſtence of the church: as if the Lord knew not there would be hereſies, becauſe he provided not ſufficiently againſt them; or that he knew not beſt how, or by whom, or by what means to preſerve the church againſt it.</p>
+               <p n="2">2 God doubtleſſe will not be wanting to his own Way; and whenever his way ſhall be erected amongſt us, there will be other manner of gifts communicated by him to the church, to doe this and all other things for its good</p>
+               <pb n="49" facs="tcp:116690:29"/>
+               <p n="3">3. See how little good Counſels have done in this kind, ſince that the frame of Goſpel government hath been ſubverted.</p>
+               <p n="4">4. The Apoſtle ſhews <hi>ver.</hi> 14. that this is the only means to pre<g ref="char:EOLhyphen"/>ſerve men from being carryed away by every wind of doctrine, or by the cunning craft of men that lye in wait to deceive.</p>
+               <p n="1">1. More then this, what is to be done?</p>
+               <p n="2">2. Shall we now Idolize our own wiſdom, or ſubmit to Gods way in this matter? If we oppoſe here againſt God, ſhall we not kick againſt the pricks?</p>
+               <p n="1">1 <hi>Tim.</hi> 3.15. The Church is called <hi>the pillar and ground of truth,</hi> as rightly conſtituted until the Church was driven away, the enemy could never ſet up their hereſies ſo as after.</p>
+               <p>
+                  <hi>Concluſion,</hi> 1. Let us ſet up Gods way, and that will pul down hereſie, diſſentions will fall quickly and quietly, Gods weapons hereunto are full of all might, ours full of weakneſs.</p>
+               <p n="2">2. No Authority is to be made uſe of in a right conſtituted Church, but that God hath errected only.</p>
+               <p>
+                  <hi>Illuſtration:</hi> 1. <hi>Gal.</hi> 1. The Apoſtle writes <hi>to the Churches of Galatia.</hi>
+               </p>
+               <p n="1">1. In <hi>Galatia</hi> were more Churches then one, and ſo no national Church.</p>
+               <p n="2">2. Theſe Churches are written all unto to amend their corrup<g ref="char:EOLhyphen"/>tions they had within them, each one diſtinctly without any com<g ref="char:EOLhyphen"/>mand of acting one, with, or over, another, as perfect bodies fur<g ref="char:EOLhyphen"/>niſht with compleat Authority thereunto, without any extrinſecal power joyned unto it for aſſiſtance.</p>
+               <p>The main ground in Scripture brought to prove the Combina<g ref="char:EOLhyphen"/>tion of a Miniſtry in Claſſes, and in provincial and national Aſſem<g ref="char:EOLhyphen"/>bly, I ſuppoſe, is taken from <hi>Acts</hi> 15.2. where it is ſaid, the Church of <hi>Antioch</hi> did ſend to the Apoſtles and Elders of the Church of <hi>Jeruſalem</hi> about the queſtion.</p>
+               <p>
+                  <hi>Reſp.</hi> 1. This, in ſending to the Apoſtles, was not to ſend to Members of another Church, but of their own Church; the Apo<g ref="char:EOLhyphen"/>ſtles being Members of all the Churches in the world.</p>
+               <p n="2">2. In the Apoſtles times the word was not written, nor the mind of God fully known; therefore no doubtful thing was to be reſolved, but by their advice, as the Epiſtles of <hi>Corinth</hi> ſhew, in which it appears, the <hi>Corinthians</hi> had ſought to advice of the A<g ref="char:EOLhyphen"/>poſtles in very many caſes.</p>
+               <p>
+                  <hi>Object.</hi> They had Apoſtolical Authority before, they need not to ſend to <hi>Jeruſalem,</hi> for that <hi>Paul</hi> himſelf being with them.</p>
+               <pb n="50" facs="tcp:116690:30"/>
+               <p>
+                  <hi>Reſp.</hi> The Church was not builded on one Apoſtle, but the A<g ref="char:EOLhyphen"/>poſtles, <hi>Epheſ.</hi> 2.20.</p>
+               <p n="2">2. God required that every truth ſhould be confirmed by the Teſtimony of two or three; ſo that to Apoſtolical Teſtimony it was neceſſary there ſhould be two or three for to confirm it; yea, God ſaith, <hi>there are three that do bear witneſs in Heaven it ſelf;</hi> ſo that it was in this caſe for confirmation of the Church in the truth, that there ſhould be the Teſtimony of two or three Apoſtles to witneſs to it.</p>
+               <p>
+                  <hi>Object.</hi> They write to the Apoſtles; that indeed was no extrin<g ref="char:EOLhyphen"/>ſecal Authority: but here they write to the Elders alſo that were at <hi>Jeruſalem,</hi> and this was extrinſecal.</p>
+               <p>
+                  <hi>Resp.</hi> The Apoſtles and Elders were but one and the ſame men, they were not ſeveral perſons; and here, as I ſuppoſe, is the great miſtake in the controverſie.</p>
+               <p n="1">1. I have ſhewed before how <hi>James, Peter</hi> and <hi>John</hi> were in the ordinary way of Miniſtry deſigned to officiate, as other Mini<g ref="char:EOLhyphen"/>ſters in the Church of <hi>Jeruſalem.</hi>
+               </p>
+               <p n="2">2, Thoſe that held Epiſcopacy, held <hi>James</hi> to be Biſhop of <hi>Je<g ref="char:EOLhyphen"/>ruſalem;</hi> thoſe for Presbytery, that he was Preſident of the Counſel, which was fulfilled in his Evangelical office, by which he had a kind of priority in the Church.</p>
+               <p n="3">3. In 2 <hi>Pet.</hi> 5.1. <hi>Peter,</hi> who was an Apoſtle, as <hi>James</hi> was alſo <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> not only an Elder, but an Elder with o<g ref="char:EOLhyphen"/>thers in the Church of <hi>Jeruſalem,</hi> which were <hi>James</hi> and <hi>John.</hi>
+               </p>
+               <p n="4">4. None do ſpeak to the queſtion, but <hi>Peter</hi> and <hi>Iames,</hi> in the Counſel. <hi>Iohn,</hi> it is like, was not preſent; and if others had been re<g ref="char:EOLhyphen"/>quired to anſwer to the queſtion; it is like they would have been put on to ſpeak to it; if they had ſpoken to it, it had been doubtleſs written of.</p>
+               <p n="5">5. It being a queſtion of doctrine, it is likely here the Church did not ſend to theſe Elders who were ordained for helps in go<g ref="char:EOLhyphen"/>vernment only.</p>
+               <p n="6">6. I ſuppoſe none could joyn with the Apoſtles that were or<g ref="char:EOLhyphen"/>dinary men, to ſay as the Apoſtles did, <hi>ver.</hi> 28. ſaying, <hi>it ſeemed good to us, and the Holy Ghoſt.</hi>
+               </p>
+               <p n="7">7. If I ſhould grant that there were other Elders, and not the Apoſtles, I ſuppoſe we ſhould not have ſufficient ground from hence to practiſe it.</p>
+               <pb n="51" facs="tcp:116690:30"/>
+               <p n="1">1. Theſe had extraordinary gifts; the Holy Ghoſt having viſibly before deſcended on them.</p>
+               <p n="2">2. That there was ſome more then ordinary cauſe in it, appears, becauſe they paſs by other Churches, and ſend to that, though they were neerer to them, and that not only becauſe ſhe was the Mo<g ref="char:EOLhyphen"/>ther Church.</p>
+               <p>
+                  <hi>Queſt.</hi> Why did they ſend to the Apoſtles under both Titles, and not uſe one of them only, if there be meant the ſame perſons in this place only?</p>
+               <p n="1">1 As Elders, they wrote concerning their Members, and their ſending forth to the Churches, in which they had relation to them as Paſtors.</p>
+               <p n="2">2. As Apoſtles, ſo they wrote concerning the doctrine; for the Anſwer is made from them diſtinctly, and divided into theſe two heads.</p>
+               <p>
+                  <hi>Acts</hi> 15.24. It pleaſed the Apoſtles and Elders, with the whole Church, to write; <hi>For as much as we have heard, that certain which went out from us have troubled you with words, ſubvert<g ref="char:EOLhyphen"/>ing your ſouls, ſaying, ye muſt be circumciſed, and keep the Law, to whom we gave no ſuch Commandment.</hi>
+               </p>
+               <p n="1">1. This was done of them as Elders joyntly with the Church, where they officiated their miniſterial calling.</p>
+               <p>
+                  <hi>Verſe</hi> 28. <hi>It ſeemed good to the Holy Ghoſt, and to us, to lay no greater burden on you.</hi>
+               </p>
+               <p>Now this the Apoſtles did as Apoſtles, not as Elders; for it was not in the power of any Church to impoſe a burden on another Church which Chriſt had not impoſed. I may, in this kind, ſpeak much more in Anſwer to this Objection, but I am diverſly at preſent ſtraightned.</p>
+               <p>One of the moſt uſual Scriptures brought to confirm mixt Con<g ref="char:EOLhyphen"/>gregations, is that of the Tares, <hi>Mat.</hi> 13. then which I think none more fully condemns it.</p>
+               <p>I ſhall ſhew you the wrong application of the words, and the right uſing together for brevity ſake, the Parable and Expoſition made by Chriſt in the Chapter together.</p>
+               <p n="1">1. The man is Chriſt, which ſowed the word in his field, that is, <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> the world.</p>
+               <p n="2">2. The tares, who are the children of the wicked and ungodly men, they appear among the good ſeed, which is the godly.</p>
+               <p n="3">3. The Miniſters <hi>ver.</hi> 28. would gather forth the wicked from
+<pb n="52" facs="tcp:116690:31"/>the good, but Chriſt ſaith, let them alone, leſt, they root up good men with the bad.</p>
+               <p n="4">4. They muſt <hi>both grow together</hi> verſ. 30. <hi>untill the harvest,</hi> which is the end of the world, being the day of judgment; and then God ſends forth the Angels, the reapers to gather them, and burn them.</p>
+               <p>Others hence ſay, this was not to continue mixt ſocieties with ungodlymen, that were openly prophane, but that the tares were ſo like the wheat, as that the Apoſtles may be deceived in the like<g ref="char:EOLhyphen"/>neſs of them, and pull up one for another.</p>
+               <p>But briefly, to ſpeak to the point, the falacie lyeth in theſe words, <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, theſe being rightly under<g ref="char:EOLhyphen"/>ſtood, ſhew the truth, and it is thus.</p>
+               <p>Chriſt, he preaching the word to the people of Church-Commu<g ref="char:EOLhyphen"/>on, calls it the world, his Miniſtry works on ſome that they were born again by the immortal ſeed of the word; others, they hearing ſhew their hate againſt it; the Apoſtles ſee a neceſſity for the good of the wheat, that the tares be pulled away, which they deſire: but, are forbid, until the accompliſhment of this time, which is the time of continuance of <hi>Moſes</hi> Miniſtry, in which Chriſt then was, and endured until Chriſts Reſurrection, when the harveſt was to begin, <hi>ver.</hi> 39. <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> not <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as we underſtand it generally; when the Angels, the Miniſters of the Goſpel were to be ſent out, and when the tares were to be ga<g ref="char:EOLhyphen"/>thered out, as <hi>Mat.</hi> 28. the Apoſtles were ſent out by Chriſt here<g ref="char:EOLhyphen"/>tofore, <hi>Mat.</hi> 9.37, 38. <hi>The harveſt is great, the labourers are few; Pray the Lord of the harveſt, that he ſend forth labourers into his harveſt:</hi> Now whether the harveſt in this acceptation be not to ſucceed the end of <hi>Moſes</hi> Miniſtry, in which Believers were only added to the Church, or ſuch as did outwardly profeſs the Goſpel, and others excluded, I leave to be judged; and then what is to be gathered out? all that doth offend, Ceremonies, and all things offenſive, and then the perſons offending, both perſons, and things are to be taken thence; to which if we add the place to which the corn in harveſt is brought; It will yet more plainly ap<g ref="char:EOLhyphen"/>pear, <hi>ver.</hi> 30. it is to be carryed into Chriſts barn, which is the Church, and the eſtate of grace here: <hi>ver.</hi> 41. after all things, of<g ref="char:EOLhyphen"/>fences and offenders are gathered out, which is not to be untill the end of the world, and the wicked are caſt into hell, then the righte<g ref="char:EOLhyphen"/>ous ſhine in the Kingdom of their Father: Now this hath reſpect
+<pb n="53" facs="tcp:116690:31"/>to the ſtate of glory in the Heavens; the Fathers Kingdom being now under adminiſtration then, before they were; this Parable, I ſuppoſe, was chiefly directed to the <hi>Jews,</hi> the Parable of the fiſh to the <hi>Gentiles,</hi> which is uſed in the ſame nature, to prove the ſame thing, as this, that is mentioned before.</p>
+               <p n="1">1. <hi>Mat.</hi> 13.47. The net is the Goſpel, the Sea the Heathen world, in oppoſittion to the <hi>Jew,</hi> ſet out by the field, and in reſpect of the trouble<g ref="char:EOLhyphen"/>ſomneſs of the people under the Goſpel-Miniſtry; as it was propheſied by the <hi>Pſalmiſt, Pſal.</hi> 2.1. <hi>Why do the Gentiles rage?</hi>
+               </p>
+               <p n="2">2. In that it is ſaid, they took of every kind, ſignified, the many Nations, tongues and people ſhould be brought in, and converted by the Goſpel to God.</p>
+               <p n="3">3. The Goſpel under this Metaphorical expreſſion, a net is ſaid to ga<g ref="char:EOLhyphen"/>therthem, to bring men to hear it, to gain on mens affections, and then to draw them, ſignifying, the power of the Goſpel in the heart of man.</p>
+               <p n="4">4. The net is full before he draws, which ſhews; 1. He obſerves the time in drawing: 2. He draws not for nothing: 3. He muſt not neglect to draw: 4. I ſuppoſe the net then full, when there are ſufficient for num<g ref="char:EOLhyphen"/>be rand fitneſs, to injoy communion withall in publike Ordinances.</p>
+               <p n="5">5. He draws to ſhore, away from communion with the reſt of the ungodly world, 2 <hi>Cor.</hi> 6.17. <hi>Come out from among them, and be ye ſe<g ref="char:EOLhyphen"/>perate;</hi> Now this was that part of Miniſtry done without the Church, the ſecond part begins.</p>
+               <p n="1">1. They ſate down, which ſhews, 1. Their ſedulity and care in doing what they did: 2. That they were to attend on this ſame: 3. That this work was a conjunctive work, not of any ſingle perſon: 4 That they muſt be drawn out of the Sea, before any putting them into the veſſels.</p>
+               <p>Now, by putting them that were <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> fair into veſſels, may be under<g ref="char:EOLhyphen"/>ſtood of the Nations, ſeverally gathered into ſeveral Churches; but I rather underſtand the Lord here ſpeaking of a particular Church, in which there are to be <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> veſſels, and the fiſh to be put in its own proper veſſel, which is either to his company of youth, children or men.</p>
+               <p n="2">2. They ſate down, ſhews, the diſpoſing of the Saints in their ſe<g ref="char:EOLhyphen"/>veral places, for Communion is a Conjunctive work of the Mini<g ref="char:EOLhyphen"/>ſtry.</p>
+               <p n="3">3. The caſting out of the bad, is a word uſed in the Scriptures, u<g ref="char:EOLhyphen"/>ſually for caſting out men by Church-Cenſures out of Church-Com<g ref="char:EOLhyphen"/>munion.</p>
+               <pb n="54" facs="tcp:116690:32"/>
+               <p>
+                  <hi>Obj.</hi> That the caſting into the Sea, the ſitting down, and putting in<g ref="char:EOLhyphen"/>to the veſſels, are not ſaid to be done by any other then the ſame perſons.</p>
+               <p>
+                  <hi>Anſwer,</hi> 1. The work is one and the ſame.</p>
+               <p n="2">2. As in the former Parable, the ſon of man did ſow the ſeed, but the Angels gathered out the tares. So <hi>ver.</hi> 49. the Angels Miniſtry is to ſepe<g ref="char:EOLhyphen"/>rate the good from the bad, they are not ſaid to caſt the net into the Sea.</p>
+               <p n="3">3. This work was to begin <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> at the end of <hi>Moſes</hi> Miniſtry.</p>
+               <p n="4">4. This work of Seperation among the Gentiles, is to be continued in the Church, until all offences and offenders are gathered out of Chriſts Kingdom, which is unto the end of the world.</p>
+               <p>
+                  <hi>Verſ.</hi> 52. of this <hi>Chapter,</hi> is indeed the key of this Scripture, without which it cannot be rightly underſtood, in which it is ſaid, <hi>a houſholder bringeth forth of his treaſury new things and old.</hi>
+               </p>
+               <p n="1">1. Hence it is clear, Chriſt mainly intended, in theſe Parables, the Goſpel-eſtate.</p>
+               <p n="2">2. He that would underſtand them rightly, muſt apprehend ſome<g ref="char:EOLhyphen"/>what of that eſtate which went before the Goſpel.</p>
+               <p n="3">3. It is implyed, that unleſs all things were underſtood rightly, both of the old and new; if but any thing of them all were miſunderſtood, it would bring a miſunderſtanding of all, as experementally the end of the world miſunderſtood, begat generally a miſunderſtanding of the whole Scripture.</p>
+               <p>
+                  <hi>Ezekiel's</hi> Viſion, <hi>Chap.</hi> 40.41. which is of a new Temple, and ſeems to allude unto that which we have formerly written of, which I ſhall write in a few words; That the viſion is apprehended to ſet out the Church under the Goſpel eſtate; and its ſeveral conditions unto the end of the world is aſſented unto of ſome.</p>
+               <p n="1">1. Then, by the wall, in the gate whereof ſtood the man who had line and the rod in his hand; I underſtand the primitive times, in which Chriſt was, and wherein the meaſure was given unto the Apoſtles to meaſure the Church by, which was the Goſpel.</p>
+               <p n="2">2. In the outer Court, I ſuppoſe, was intended <hi>Luthers</hi> time, which had but little meaſuring in it, which was further off from the Temple-eſtate, and next inſued the ending of the Church after the pri<g ref="char:EOLhyphen"/>mitive times.</p>
+               <p n="3">3. He is brought to the inward Court, which I ſuppoſe to have re<g ref="char:EOLhyphen"/>ference to the Reformation made by <hi>Calvin,</hi> which was farther from the wall, ſignifying the primitive times, and nearer to the Temple-ſtate, of which much is ſpoken in the Epiſtle to <hi>Philadelphia, Rev.</hi> 3.12.
+<pb n="55" facs="tcp:116690:32"/>which, if it be underſtood to typifie, with the 6 other Churches, the eſtate of the Church to the end of the world, as many ſuppoſe, will then fall out to be accompliſhed in theſe times, and that are now to ſucceed; and alſo in <hi>Rev.</hi> 11.1. &amp; <hi>Chap.</hi> 15.8. which eſtate did ſucceed the <hi>Sardin</hi> eſtate, in which was but a name of life, and is rightly underſtood by ſome to repreſent <hi>Luthers</hi> time, as <hi>Bernard</hi> in his Introduction to the <hi>Revel.</hi>
+               </p>
+               <p n="1">1. In the former Courts, were only 30 ſingle Chambers on a row, one by another; in the Temple-eſtate there are 3 Chambers one over ano<g ref="char:EOLhyphen"/>ther, ſo in order, and the wideneſs of the houſe ſtill upward, from the lower to the middle, and ſo to the upper, as having an alluſion to the three-fold Congregation belonging to the Church, the laſt having moſt enlargements in it.</p>
+               <p n="2">2. In this eſtate, before the doors of the Chamber was a ſeparate place, but none in the Courts.</p>
+               <p n="3">3. In this eſtate, <hi>Rev.</hi> 11.1. the Temple is meaſured, and the wor<g ref="char:EOLhyphen"/>ſhippers, but not in the other.</p>
+               <p n="4">4. In this eſtate, the Courts are left out, and not to be meaſured by command, which <hi>John</hi> would have done elſe, as is to be thought, ha<g ref="char:EOLhyphen"/>ving been before meaſured.</p>
+               <p>
+                  <hi>Object.</hi> Why may not Epiſcopacy be looked on as the firſt Court?</p>
+               <p>
+                  <hi>Resp.</hi> They were brought off from it by King <hi>Henry</hi> the eight; but Chriſt was to bring theſe from Court to Court, and not man, as I verily ſuppoſe both <hi>Calvin</hi> and <hi>Luther</hi> were, as appeared by the work the Lord wrought by them; the laſt great work which the Lord brings the Church to, is the Temple-eſtate which will greatly differ from the other eſtates, in which the world will be more bleſſed then ever. For which is reſerved the greateſt mercy, in which will be amends made to the Saints for their many miſeries, abundantly, through the grace that is to be revealed of Jeſus Chriſt.</p>
+               <p>To end al, one word more of places of Aſſembly ſpoken in the Scripture.</p>
+               <p n="1">1. The Synagogue was a place the Apoſtles oft preach't in, but never as to the Church, but diſputing or perſwading the things of the King<g ref="char:EOLhyphen"/>dom, as having to do with men, arguing againſt the way of God there, and not perſwaded of it, being a mixt people.</p>
+               <p n="2">2. When men were brought to beleeve the Goſpel, then they were ſeperated thence to ſome private houſe, where they had ſet up the Goſ<g ref="char:EOLhyphen"/>pel. Ordinances among them, <hi>Acts</hi> 18.4, 7, 8. We read not, that in the Synagogues any publike Church-work was done, as baptizing, admini<g ref="char:EOLhyphen"/>ſtring the Lords Supper, and the like.</p>
+               <p n="3">3. Becauſe that one houſe, it is like, could not contain all for number,
+<pb n="56" facs="tcp:116690:33"/>and to avoid confuſion in the execution of the Miniſtry in publike mee<g ref="char:EOLhyphen"/>tings; it was neceſſary, that they ſhould be diſtributed according to the ſeveral adminiſtrations of the Goſpel, diſpenſed among them into ſeve<g ref="char:EOLhyphen"/>ral places. Hence <hi>Paul,</hi> writing to the whole Church of <hi>Rome,</hi> writes in particular to the Church in the houſe of <hi>Priſcilla, Rom.</hi> 16.3.5. here cal<g ref="char:EOLhyphen"/>led a Church Synec dochically, for a part of the Church of <hi>Rome,</hi> as the Paſtors part, or Teachers for the whole.</p>
+               <p n="4">4. The place where the whole Church met, as is obſerved by Maſter <hi>Mead,</hi> was called by the name of Church, figuratively calling ſo the thing containing for the people contained in it, 2 <hi>Cor.</hi> 11.22. <hi>Have ye not houſes to eate in, or deſpiſe ye the Church of God?</hi> where he notes, That the Church here ſet in oppoſition to their houſes, is to be taken for a material houſe ſeperated to publike meetings among them.</p>
+               <p>
+                  <hi>Obj.</hi> May be made, That there was no particular place for general meetings, or for receiving Sacraments: The Scripture ſaith, <hi>they went from houſe to houſe breaking of bread.</hi>
+               </p>
+               <p>
+                  <hi>Reſp.</hi> As Mr. <hi>Mead</hi> hath well obſerved, that <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> may be un<g ref="char:EOLhyphen"/>derſtood for <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> in the houſe; which ſome underſtand to be the houſe in which the Diſciples were, at the deſcending of the Holy Ghoſt.</p>
+               <p n="5">5. I ſuppoſe, that whereas in ſeveral places of Scripture, we have men<g ref="char:EOLhyphen"/>tion made of certain Churches in particular houſes; I ſuppoſe it ſerves to illuſtrate the truth of the doctrine propoſed; and this one thing I dare affirm, that the way of God, when ever brought out to the world, will be as ſtrange, though contained in the word, as if it had been never writ<g ref="char:EOLhyphen"/>ten in it, as appears in <hi>Ezekiel's</hi> writing of the Government to be un<g ref="char:EOLhyphen"/>der the Temple-ſtate, <hi>Ezek.</hi> 43.10, 11. which is yet to be.</p>
+               <p>
+                  <hi>Thou ſon of man, ſhew the houſe to the houſe of Iſrael, that they may be aſhamed of their iniquities, and let them meaſure the pattern; And if they be aſhamed of all that they have done, ſhew them the form of the houſe, and the faſhion thereof, the goings out thereof, and the commings in thereof, and all the forms thereof, and all the Laws thereof, and all the Ordinances thereof write it in their ſight;</hi> which ſheweth, that all theſe things were to be hid for the ſins of the people, &amp; when revealed, it ſhould be as a thing now written, and new to the world, which the Lord will not reveal un<g ref="char:EOLhyphen"/>til the putting away of our abominations out of his ſight, and have pulled down the poſts we have ſet up by his poſts, and the threſholds placed by his threſholds, which keeps the Lord and his way from us, and may occaſion, being hid, through diſſentions, deſtruction to us, from which God and his truth can only reſcue and ſave us, which is to be diligently ſought for of al, as that, in which our lives and peace are bound up in, &amp; of our poſterity, by which we ſhal become one in God, in Chriſt, in the Faith, in way and worſhip of the Lord, and become all of one mind and one ſpirit, as becometh the Saints and the Servants of the Lord Jeſus Chriſt; all which the good Lord, for the glory of his grace, works in all the Saints, according to his mighty working, which he worketh in thoſe that beleeve to peace and righteouſneſs here, and eternal life hereafter. <hi>Amen.</hi>
+               </p>
+               <pb facs="tcp:116690:34"/>
+               <figure>
+                  <figDesc>depiction of a man or minister preaching from the pulpit in a church full of people</figDesc>
+                  <p>The Orthodox true Miniſter,</p>
+                  <figDesc>depiction of a man or minister preaching from the window of a house or inn, with a sign featuring a bell, to a crowd of people outside, including three in a tree</figDesc>
+                  <p>the Seducer and falſe Prophet.</p>
+               </figure>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
